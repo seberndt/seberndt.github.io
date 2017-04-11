@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Sebastian Berndt</title>
-    <link>https://seberndt.github.io/talk/index.xml</link>
+    <link>http://seberndt.github.io/talk/index.xml</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Sebastian Berndt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,37 +12,37 @@
     
     <item>
       <title>On the Relation between Steganography and Cryptography</title>
-      <link>https://seberndt.github.io/talk/2016-qut/</link>
+      <link>http://seberndt.github.io/talk/2016-qut/</link>
       <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://seberndt.github.io/talk/2016-qut/</guid>
+      <guid>http://seberndt.github.io/talk/2016-qut/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Berechnung von Baumzerlegungen mit SAT-Solvern</title>
-      <link>https://seberndt.github.io/talk/2016-treewidth/</link>
+      <link>http://seberndt.github.io/talk/2016-treewidth/</link>
       <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://seberndt.github.io/talk/2016-treewidth/</guid>
+      <guid>http://seberndt.github.io/talk/2016-treewidth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fully Dynamic Bin Packing Revisited</title>
-      <link>https://seberndt.github.io/talk/2015-banff/</link>
+      <link>http://seberndt.github.io/talk/2015-banff/</link>
       <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://seberndt.github.io/talk/2015-banff/</guid>
+      <guid>http://seberndt.github.io/talk/2015-banff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learnability does not imply Secure Steganography</title>
-      <link>https://seberndt.github.io/talk/2015-nordic/</link>
+      <link>http://seberndt.github.io/talk/2015-nordic/</link>
       <pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://seberndt.github.io/talk/2015-nordic/</guid>
+      <guid>http://seberndt.github.io/talk/2015-nordic/</guid>
       <description></description>
     </item>
     
