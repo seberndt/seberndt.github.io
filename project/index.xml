@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Sebastian Berndt</title>
+    <link>https://seberndt.github.io/project/index.xml</link>
+    <description>Recent content in Projects on Sebastian Berndt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Sebastian Berndt</copyright>
+    <lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Jdrasil</title>
+      <link>https://seberndt.github.io/project/jdrasil/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://seberndt.github.io/project/jdrasil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CMSC 2016 - Creative Mathematical Science Communication</title>
+      <link>https://seberndt.github.io/project/cmsc2016/</link>
+      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://seberndt.github.io/project/cmsc2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Informatik Summer Camp - Informatik Unplugged</title>
+      <link>https://seberndt.github.io/project/summercamp/</link>
+      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://seberndt.github.io/project/summercamp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
