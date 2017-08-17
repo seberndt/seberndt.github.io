@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="http://seberndt.github.io/talk/2016-qut/">
+  <link rel="canonical" href="http://seberndt.github.io/talk/2017-chile/">
 
   
 
-  <title>On the Relation between Steganography and Cryptography | Sebastian Berndt</title>
+  <title>The PACE challenge: practical algorithms for tree width | Sebastian Berndt</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -149,7 +149,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">On the Relation between Steganography and Cryptography</h1>
+      <h1 itemprop="name">The PACE challenge: practical algorithms for tree width</h1>
       <span class="pub-authors" itemprop="author">
         
       </span>
@@ -159,35 +159,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fseberndt.github.io%2ftalk%2f2016-qut%2f"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fseberndt.github.io%2ftalk%2f2017-chile%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=On%20the%20Relation%20between%20Steganography%20and%20Cryptography&amp;url=http%3a%2f%2fseberndt.github.io%2ftalk%2f2016-qut%2f"
+         href="https://twitter.com/intent/tweet?text=The%20PACE%20challenge%3a%20practical%20algorithms%20for%20tree%20width&amp;url=http%3a%2f%2fseberndt.github.io%2ftalk%2f2017-chile%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fseberndt.github.io%2ftalk%2f2016-qut%2f&amp;title=On%20the%20Relation%20between%20Steganography%20and%20Cryptography"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fseberndt.github.io%2ftalk%2f2017-chile%2f&amp;title=The%20PACE%20challenge%3a%20practical%20algorithms%20for%20tree%20width"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fseberndt.github.io%2ftalk%2f2016-qut%2f&amp;title=On%20the%20Relation%20between%20Steganography%20and%20Cryptography"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fseberndt.github.io%2ftalk%2f2017-chile%2f&amp;title=The%20PACE%20challenge%3a%20practical%20algorithms%20for%20tree%20width"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=On%20the%20Relation%20between%20Steganography%20and%20Cryptography&amp;body=http%3a%2f%2fseberndt.github.io%2ftalk%2f2016-qut%2f">
+         href="mailto:?subject=The%20PACE%20challenge%3a%20practical%20algorithms%20for%20tree%20width&amp;body=http%3a%2f%2fseberndt.github.io%2ftalk%2f2017-chile%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -200,25 +200,37 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">We consider steganography - a concept of hiding the
-presence of secret messages in legal communications - in the
-computational setting and its relation to cryptography. While
-steganography is widely used in numerous systems nowadays and a large
-body of practical work on it exists, the understanding of its
-theoretical foundation is still lacking.
+      <p class="pub-abstract" itemprop="text">While the theoretical aspects concerning the computation of tree width -
+one of the most important graph parameters – are well understood, it is
+not clear how it can be computed practically. As tree width has a wide
+range of applications, e.g. in bioinformatics or artificial
+intelligence, this lack of understanding hinders the applicability of
+many important algorithms in the real world. The Parameterized
+Algorithms and Computational Experiments (PACE) challenge therefore
+chose the computation of tree width as one of its challenge problems in
+2016 and again in 2017. In 2016, Hisao Tamaki (Meiji University)
+presented a new algorithm that outperformed the other approaches (SAT
+solver and branch-and-bound) by far. Although no theoretical performance
+guarantees for his algorithm are known, it was so dominating that all
+participants in 2017 used a variant of Tamaki’s algorithm. This allowed
+the winning implementation due to Larisch (King-Abdullah University of
+Science and Engineering) and Salfelder (University of Leeds) to solve
+over 50% of the test suite (containing graphs with over 3500 nodes) in
+under six seconds. Before PACE 2016, no algorithm was known to reliably
+compute tree width on graphs with about 100 nodes. Acknowledging this
+fact, Tamaki’s paper on his algorithm won the best paper award in track
+B of ESA 2017.
 
-In their influential work from 2002, Hopper, Langford and von Ahn stated
-that (non-polynomial) steganography and cryptography are equivalent to
-each other. In this talk, we present a non-polynomial secure stegosystem
-that does not rely on any unproven assumptions. This disproves the above
-equivalence. Furthermore, we show that even polynomial-time
-steganography and cryptography are not equivalent by giving (a) a
-channel for which secure steganography exists if and only if one-way
-functions exist and (b) another channel such that secure steganography
-implies that no one-way functions exist. We therefore show that
-security-preserving reductions between cryptography and steganography
-need to be treated very carefully and that - contrary to popular belief
-- steganography is not equivalent to cryptography.</p>
+In this talk, I will first give a gentle introduction to tree width,
+parameterized algorithms and the PACE challenge. I will then present a
+streamlined version of Tamaki’s algorithm based on a variant of the
+well-studied cops-and-robber game. This allows us to produce hard
+instances for the algorithm, derive the first known upper bound on its
+running time and give a plausible conjecture explaining its practical
+performance.
+
+This talk is based on joint work with Max Bannach (University of
+Luebeck).</p>
     
 
     <div class="row">
@@ -227,7 +239,7 @@ need to be treated very carefully and that - contrary to popular belief
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            Thu, Dec 15, 2016
+            Wed, Aug 16, 2017
           </div>
         </div>
       </div>
@@ -241,9 +253,9 @@ need to be treated very carefully and that - contrary to popular belief
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
           <div class="col-xs-12 col-sm-9">
-            
-            Information Security Seminar
-            
+            <a href="http://www.dii.uchile.cl/acgo/seminar-acgo/" target="_blank">
+            AGCO Seminar
+            </a>
           </div>
         </div>
       </div>
@@ -257,7 +269,7 @@ need to be treated very carefully and that - contrary to popular belief
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">Queensland University of Technology</div>
+          <div class="col-xs-12 col-sm-9">Universidad de Chile</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -280,13 +292,10 @@ need to be treated very carefully and that - contrary to popular belief
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="http://seberndt.github.io/talk/2016-treewidth/"><span
-      aria-hidden="true">&larr;</span> Berechnung von Baumzerlegungen mit SAT-Solvern</a></li>
+    <li class="previous"><a href="http://seberndt.github.io/talk/2016-qut/"><span
+      aria-hidden="true">&larr;</span> On the Relation between Steganography and Cryptography</a></li>
     
 
-    
-    <li class="next"><a href="http://seberndt.github.io/talk/2017-chile/">The PACE challenge: practical algorithms for tree width <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
