@@ -1,0 +1,239 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{burgundy}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Sebastian}{Berndt}
+\title{Lebenslauf}                               % optional, remove / comment the line if not wanted
+\address{Selmsdorfer Weg 1}{23568 Lübeck}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+49~(151)~23~76~80~13}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+% \phone[fixed]{+49~(451)~390~64~62}
+\email{sebastian.berndt@gmail.com}                               % optional, remove / comment the line if not wanted
+% \homepage{http://seberndt.github.io}                         % optional, remove / comment the line if not wanted
+% \social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
+% \social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+% \social[github]{seberndt}                              % optional, remove / comment the line if not wanted
+% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+% \photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+
+
+\usepackage{xpatch}
+\xpatchcmd{\cventry}{\bfseries}{\mdseries}{}{}
+\patchcmd{\makeletterclosing}{[3em]}{[1em]}{}{}
+
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Dr.~Ina Pfannschmidt}{Christian-Albrechts-Universität zu Kiel\\
+Institut für Informatik\\Christian-Albrechts-Platz 4, 24118 Kiel}
+\date{08.~Juli~2017}
+\opening{Sehr geehrte Frau Dr.~Pfannschmidt,}
+\closing{Mit freundlichen Grüßen,}
+\enclosure[Anhang]{Lebenslauf, Kopien der Universitätszeugnisse, Zwischenzeugnis}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\vspace{-.4cm}
+mit sehr großem Interesse las ich Ihre Ausschreibung für die Stelle als 
+wissenschaftlicher Mitarbeiter (Kennziffer 2017-4). Im Moment
+promoviere ich am Institut für Theoretische Informatik der Universität
+zu Lübeck (\textsc{UzL}) und werde meine Promotion bei Prof.~Dr.~Maciej
+Liśkiewicz über die theoretischen 
+Grundlagen der Steganographie~--~der Wissenschaft, Informationen in
+unverdächtiger Kommunikation zu verstecken~--~voraussichtlich im Oktober~2017
+erfolgreich abschließen.
+
+Eine erfolgreiche Lehre und eine gute Zusammenarbeiten mit Studierenden
+waren mir stets ausgesprochen wichtig, was sich in sehr positiven
+Lehrevaluationen niedergeschlagen hat. Bereits in meinem Studium
+arbeitete ich als studentischer Tutor in den zur Stelle zugehörigen
+Fächern \emph{Programmierung} und \emph{Algorithmen und Datenstrukturen}
+und bot dort selbstständig Extra-Übungen für leistungsschwächere
+Studierende an.  Als wissenschaftlicher Mitarbeiter bin ich für die
+Fächer \emph{Algorithmendesign}, \emph{Codierung und Sicherheit} und
+\emph{Einführung in die IT-Sicherheit und Zuverlässigkeit}
+verantwortlich und betreute auch dort zahlreiche Übungen. Im
+letztgenannten Fach hielt ich seit 2015 eigenverantwortlich zwei
+Vorlesungstermine pro Semester und übernahm im Wintersemester 2015 
+ebenfalls drei Vorlesungstermine der Vorlesung
+\emph{Präsentieren und Dokumentieren}. Um meine Lehre möglichst gut zu
+gestalten, besuchte ich mehr als zehn Kurse des
+\emph{Dozierenden-Service-Center} der \textsc{UzL} und erhielt dadurch
+das \emph{Zertifikat II über die hochschuldidaktische Weiterbildung}. Da
+mir die Vermittlung informatischen und mathematischen Denkens auch für
+Schüler und Schülerinnen sehr wichtig ist, leitete ich im Sommer 2016 im
+Rahmen des \emph{Informatik Summer Camps} den Kurs \emph{Informatik
+  Unplugged}, in welchem ich einer Gruppe von 14-~bis 17-jährigen 
+grundlegende Ideen der Algorithmik
+beibrachte. Weiterhin war ich im selben Jahr Mitglied im
+Organisationskomitee der \emph{Creative Mathematical Sciences
+  Communication} -- einer Konferenz, die es als Ziel hat, informatisches
+Denken bereits in der Grundschule zu vermitteln.
+
+Zu Beginn meiner Promotion im Herbst 2012 wurde an der \textsc{UzL} 
+ das Anwendungsfach \emph{IT-Sicherheit und Zuverlässigkeit}
+eingeführt, das seit 2016 ein eigenständiger Studiengang ist.
+Ich war hierbei an der Stundenplangestaltung, 
+den Einführungsveranstaltungen für Studierende und an den 
+Informations\-veranstaltungen für Studiereninteressierte beteiligt.
+
+Im Rahmen meiner Promotion habe ich mich intensiv mit Steganographie und
+der Algorithmik, insbesondere im Bereich der Optimierung,
+auseinandergesetzt und konnte dabei einige Veröffentlichungen auf
+renommierten internationalen Konferenzen erzielen.
+
+Eines meiner Ziele ist, im Laufe meiner wissenschaftlichen Karriere mein
+erworbenes Wissen mit Schülern, Studenten und anderen Wissenschaftlern zu teilen. Daher
+freue ich mich schon jetzt über
+eine positive Nachricht von Ihnen. 
+
+% Da ich auch weiterhin eine wissenschaftliche Karriere anstrebe, in der
+% die Lehre eine große Rolle spielen soll, 
+
+
+\makeletterclosing
+\clearpage
+
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Persönliche Daten}
+\cvitem{Name}{Sebastian Berndt}
+\cvitem{Geburtsdatum}{27.04.1986}{
+\cvitem{Geburtsort}{Berlin}
+\cvitem{Familienstand}{verheiratet, ein Kind}
+
+
+\section{Schulische Ausbildung}
+\cvitem{1992--1996}{Grundschule}
+\cvitem{1996--2002}{Integrierte Gesamtschule Schlutup (jetzt: Willy-Brandt-Schule)}
+\cvitem{2002--2005}{Geschwister-Prenski-Schule, Abitur, Note: 1{,}8}
+
+
+
+\section{Wissenschaftlicher Werdegang}
+\cvitem{2005--2007}{Studium der Mathematik und Informatik auf Lehramt an
+  Gymnasien an der Universität Rostock}
+\cvitem{2007--2010}{Studium Bachelor Informatik an der CAU Kiel mit Anwendungsbereich Medienpädagogik}
+\cvitem{2010}{\textbf{Bachelor of Science} mit der Arbeit: \emph{Robust Approximation Schemes for
+  Online Bin Packing}. Gutachter: Prof.~Dr.~Klaus Jansen und Lars
+  Prädel (Note: 1{,}4)}
+\cvitem{2010--2012}{Studium Master Informatik an der CAU Kiel mit  Anwendungsbereich Mathematik}
+\cvitem{2012}{\textbf{Master of Science} mit der Arbeit: \emph{Robust Bin Packing
+  -- Theory and Praxis}. Gutachter: Prof.~Dr.~Klaus Jansen und Kim-Manuel
+Klein (Note: 1{,}1)}
+\cvitem{2012--2017}{Wissenschaftlicher Mitarbeiter am Institut für
+  Theoretische Informatik an der Universität zu Lübeck}
+\cvitem{Oktober 2017}{Voraussichtliche \textbf{Promotion} bei Prof.~Dr.~Maciej
+  Liśkiewicz über \emph{Provably Secure Steganography}}
+
+\section{Sprachkenntnisse}
+\cvitemwithcomment{Deutsch}{Muttersprache}{}
+\cvitemwithcomment{Englisch}{Fließend in Wort und Schrift}{}
+
+\section{Lehre}
+\cvitem{2010--2012}{Studentischer Tutor in \emph{Algorithmen und
+  Datenstrukturen}}
+\cvitem{2010--2012}{Studentischer Tutor in \emph{Programmierung}}
+\cvitem{2012--2017}{Wissenschaftlicher Assistent für
+  \emph{Algorithmendesign}}
+\cvitem{2012--2017}{Wissenschaftlicher Assistent für \emph{Einführung in
+  die IT-Sicherheit und Zuverlässigkeit}}
+\cvitem{2013--2016}{Wissenschaftlicher Assistent für \emph{Codierung und Sicherheit}}
+\cvitem{2015}{Mitverantwortlich für die Betreuung der Bachelorarbeiten
+  \emph{Lower Bounds in Online Bin Packing Models}, \emph{Secure Multiparty
+  Computations in Bitcoin} und \emph{Development and Examination of a
+  Huffman-coding based Stegosystem}}
+
+
+\section{Veröffentlichungen}
+\cvitem{2015}{
+Berndt, Sebastian; Jansen, Klaus und Klein, Kim-Manuel: \emph{Fully
+  Dynamic Bin Packing Revisited}, \textsc{APPROX/RANDOM}
+  2015}
+
+\cvitem{2016}{Berndt, Sebastian und Reischuk, Rüdiger: 
+\emph{Steganography Based on Pattern Languages}, \textsc{LATA} 2016}
+
+\cvitem{2016}{Berndt, Sebastian und Liśkiewicz, Maciej: \emph{Provable
+    Secure Universal Steganography of Optimal Rate}, \textsc{ACM
+  IH{\&}MMSEC} 2016, \textbf{Auszeichnung \emph{Best Student Paper}}}
+
+\cvitem{2016}{Berndt, Sebastian und Liśkiewicz, Maciej: \emph{Hard
+    Communication Channels for Steganography}, \textsc{ISAAC} 2016}
+
+\cvitem{2017}{Berndt, Sebastian; Liśkiewicz, Maciej; Lutter, Matthias
+und Reischuk, Rüdiger: \emph{Learning Residual Alternating Automata}, \textsc{AAAI} 2017}
+
+\cvitem{2017}{Bannach, Max; Berndt, Sebastian und Ehlers, Thorsten:
+  \emph{Jdrasil: A Modular Library for Computing Tree Decompositions}, \textsc{SEA} 2017}
+
+\section{Vorträge}
+\cvitem{2015}{\emph{Learnability does not imply Secure
+  Steganography}, Nordic Complexity Workshop}
+\cvitem{2015}{\emph{Fully Dynamic Bin Packing Revisited}, 
+ \href{http://www.birs.ca/events/2015/5-day-workshops/15w5118}{Approximation
+   Algorithms and Parameterized Complexity}}
+\cvitem{2016}{\emph{Berechnung von Baumzerlegungen mit SAT-Solvern}, CAU Kiel}
+\cvitem{2016}{\emph{On the Relation between Steganography and
+    Cryptography}, Information Security Seminar, Queensland University of Technology}
+
+
+\section{Weitere Aktivitäten}
+\cvitem{2012--2015}{Erhalt des \emph{Zertifikats II über die
+  hochschuldidaktische Weiterbildung} durch Besuch von mehr als zehn
+  Kursen über Team Leading, 
+  Präsentationstechniken, etc., Dozierenden-Service-Center der Universität zu
+  Lübeck}
+\cvitem{2016}{Im Organisationskomitee der \emph{Creative Mathematical Sciences
+  Communication}}
+\cvitem{2016}{Unterricht einer Gruppe von 14- bis 17-Jährigen über
+  Algorithmik im Rahmen des \emph{Informatik Summer Camps} der
+  Universität zu Lübeck}
+\cvitem{2016--}{Mitentwicklung des Tool \emph{Jdrasil} zur schnellen
+Berechnung von Baumweiten, welches die dritten Plätze in den Tracks »sequential exact
+solver« und »parallel heuristic solver« in der ersten \emph{PACE}
+Challenge belegte}
+
+
+
+
+
+
+\end{document}
+
+
