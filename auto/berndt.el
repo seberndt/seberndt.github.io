@@ -2,7 +2,7 @@
  "berndt"
  (lambda ()
    (LaTeX-add-bibitems
-    "ccs2017"
+    "DBLP:conf/ccs/BerndtL17"
     "DBLP:conf/wea/BannachBE17"
     "DBLP:conf/aaai/BerndtLLR17"
     "DBLP:journals/eccc/BerndtLLR17"

@@ -100,6 +100,14 @@
     
     
     <url>
+      <loc>http://seberndt.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>http://seberndt.github.io/tags/conference/</loc>
       <lastmod>2016-10-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -108,12 +116,17 @@
   
     
     
+    <url>
+      <loc>http://seberndt.github.io/project/</loc>
+      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
     
     
     <url>
-      <loc>http://seberndt.github.io/project/</loc>
-      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+      <loc>http://seberndt.github.io/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -140,6 +153,7 @@
     
     <url>
       <loc>http://seberndt.github.io/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
