@@ -8,46 +8,144 @@
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.40.1" />
   <meta name="author" content="Sebastian Berndt">
-  <meta name="description" content="Postdoc in Theoretical Computer Science">
 
   
   
   
-    
-  
   
     
-    
-    <link rel="stylesheet" href="/css/highlight.min.css">
+      
     
   
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/css/academicons.min.css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
-  <link rel="stylesheet" href="/css/hugo-academic.css">
+  <meta name="description" content="While the theoretical aspects concerning the computation
+of tree width – one of the most important graph parameters – are well
+understood, it is not clear how it can be computed practically. As tree
+width has a wide range of applications, e. g. in bioinformatics or artificial
+intelligence, this lack of understanding hinders the applicability of many
+important algorithms in the real world. The Parameterized Algorithms
+and Computational Experiments (PACE) challenge therefore chose the
+computation of tree width as one of its challenge problems in 2016 and
+again in 2017. In 2016, Hisao Tamaki (Meiji University) presented a
+new algorithm that outperformed the other approaches (including SAT
+solvers and branch-and-bound) by far. An implementation of Tamaki’s
+algorithm allowed Larisch (King-Abdullah University of Science and
+Engineering) and Salfelder (University of Leeds) to solve over 50% of the
+test suite of PACE 2017 (containing graphs with over 3500 nodes) in
+under six seconds. Before PACE 2016, no algorithm was known to reliably
+compute tree width on graphs with about 100 nodes. As a wide range of
+parameterized algorithm require the computation of a tree decomposition
+as a first step, this breakthrough result allows practical implementations
+of these algorithms for the first time.
+This talks starts with a gentle introduction to tree width and its use in
+parameterized complexity, followed by an algorithmic approach for the
+exact computation of the tree width of a graph, based on a variant of
+the well-studied cops-and-robber game. Finally, we present a streamlined
+version of Tamaki’s algorithm due to Bannach and Berndt based on this
+game.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://seberndt.github.io/publication/cie2018tw/">
+
   
 
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
   <link rel="alternate" href="http://seberndt.github.io/index.xml" type="application/rss+xml" title="Sebastian Berndt">
   <link rel="feed" href="http://seberndt.github.io/index.xml" type="application/rss+xml" title="Sebastian Berndt">
+  
 
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="http://seberndt.github.io/publication/cie2018tw/">
 
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Sebastian Berndt">
+  <meta property="og:url" content="http://seberndt.github.io/publication/cie2018tw/">
+  <meta property="og:title" content="Computing Tree Width: From Theory to Practice and Back | Sebastian Berndt">
+  <meta property="og:description" content="While the theoretical aspects concerning the computation
+of tree width – one of the most important graph parameters – are well
+understood, it is not clear how it can be computed practically. As tree
+width has a wide range of applications, e. g. in bioinformatics or artificial
+intelligence, this lack of understanding hinders the applicability of many
+important algorithms in the real world. The Parameterized Algorithms
+and Computational Experiments (PACE) challenge therefore chose the
+computation of tree width as one of its challenge problems in 2016 and
+again in 2017. In 2016, Hisao Tamaki (Meiji University) presented a
+new algorithm that outperformed the other approaches (including SAT
+solvers and branch-and-bound) by far. An implementation of Tamaki’s
+algorithm allowed Larisch (King-Abdullah University of Science and
+Engineering) and Salfelder (University of Leeds) to solve over 50% of the
+test suite of PACE 2017 (containing graphs with over 3500 nodes) in
+under six seconds. Before PACE 2016, no algorithm was known to reliably
+compute tree width on graphs with about 100 nodes. As a wide range of
+parameterized algorithm require the computation of a tree decomposition
+as a first step, this breakthrough result allows practical implementations
+of these algorithms for the first time.
+This talks starts with a gentle introduction to tree width and its use in
+parameterized complexity, followed by an algorithmic approach for the
+exact computation of the tree width of a graph, based on a variant of
+the well-studied cops-and-robber game. Finally, we present a streamlined
+version of Tamaki’s algorithm due to Bannach and Berndt based on this
+game.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-04-30T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-04-30T00:00:00&#43;00:00">
   
 
-  <title>Computing Tree Width: From Theory to Practice and Back (CIE 2018) | Sebastian Berndt</title>
+  
+  
+
+  <title>Computing Tree Width: From Theory to Practice and Back | Sebastian Berndt</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
 
 <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
   <div class="container">
 
     
     <div class="navbar-header">
+      
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
               data-target=".navbar-collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -55,6 +153,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      
       <a class="navbar-brand" href="/">Sebastian Berndt</a>
     </div>
 
@@ -62,92 +161,145 @@
     <div class="collapse navbar-collapse">
 
       
+      
       <ul class="nav navbar-nav navbar-right">
         
 
+        
+        
+        
+        
+        
+          
         
 
         <li class="nav-item">
           <a href="/#about">
             
             <span>Home</span>
+            
           </a>
         </li>
 
         
         
 
+        
+        
+        
+        
+        
+          
         
 
         <li class="nav-item">
           <a href="/#publications">
             
             <span>Publications</span>
+            
           </a>
         </li>
 
         
         
 
+        
+        
+        
+        
+        
+          
         
 
         <li class="nav-item">
           <a href="/#talks">
             
             <span>Talks</span>
+            
           </a>
         </li>
 
         
         
 
+        
+        
+        
+        
+        
+          
         
 
         <li class="nav-item">
           <a href="/#projects">
             
             <span>Projects</span>
+            
           </a>
         </li>
 
         
         
 
+        
+        
+        
+        
+        
+          
         
 
         <li class="nav-item">
           <a href="/#teaching">
             
             <span>Teaching</span>
+            
           </a>
         </li>
 
         
         
 
+        
+        
+        
+        
+        
+          
         
 
         <li class="nav-item">
           <a href="/#contact">
             
             <span>Contact</span>
+            
           </a>
         </li>
 
         
         
 
+        
+        
+        
+        
+        
+          
         
 
         <li class="nav-item">
           <a href="/#dsgvo">
             
             <span>Datenschutz</span>
+            
           </a>
         </li>
 
         
         
+      
+
+      
       </ul>
 
     </div>
@@ -158,8 +310,9 @@
 
   
 
-  <div class="container pub-title">
-    <h1 itemprop="name">Computing Tree Width: From Theory to Practice and Back (CIE 2018)</h1>
+
+  <div class="article-container">
+    <h1 itemprop="name">Computing Tree Width: From Theory to Practice and Back</h1>
     <span class="pub-authors" itemprop="author">
       
       Sebastian Berndt
@@ -170,36 +323,36 @@
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fseberndt.github.io%2fpublication%2fcie2018tw%2f"
-         target="_blank">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Computing%20Tree%20Width%3a%20From%20Theory%20to%20Practice%20and%20Back%20%28CIE%202018%29&amp;url=http%3a%2f%2fseberndt.github.io%2fpublication%2fcie2018tw%2f"
-         target="_blank">
+         href="https://twitter.com/intent/tweet?text=Computing%20Tree%20Width%3a%20From%20Theory%20to%20Practice%20and%20Back&amp;url=http%3a%2f%2fseberndt.github.io%2fpublication%2fcie2018tw%2f"
+         target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fseberndt.github.io%2fpublication%2fcie2018tw%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fseberndt.github.io%2fpublication%2fcie2018tw%2f&amp;title=Computing%20Tree%20Width%3a%20From%20Theory%20to%20Practice%20and%20Back%20%28CIE%202018%29"
-         target="_blank">
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fseberndt.github.io%2fpublication%2fcie2018tw%2f&amp;title=Computing%20Tree%20Width%3a%20From%20Theory%20to%20Practice%20and%20Back"
+         target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fseberndt.github.io%2fpublication%2fcie2018tw%2f&amp;title=Computing%20Tree%20Width%3a%20From%20Theory%20to%20Practice%20and%20Back%20%28CIE%202018%29"
-         target="_blank">
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fseberndt.github.io%2fpublication%2fcie2018tw%2f&amp;title=Computing%20Tree%20Width%3a%20From%20Theory%20to%20Practice%20and%20Back"
+         target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Computing%20Tree%20Width%3a%20From%20Theory%20to%20Practice%20and%20Back%20%28CIE%202018%29&amp;body=http%3a%2f%2fseberndt.github.io%2fpublication%2fcie2018tw%2f">
+         href="mailto:?subject=Computing%20Tree%20Width%3a%20From%20Theory%20to%20Practice%20and%20Back&amp;body=http%3a%2f%2fseberndt.github.io%2fpublication%2fcie2018tw%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -208,15 +361,12 @@
 
 
     </span>
-  </div>
 
-</div>
-<div class="article-container">
+    
 
-  
-
-  <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">While the theoretical aspects concerning the computation
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">While the theoretical aspects concerning the computation
 of tree width – one of the most important graph parameters – are well
 understood, it is not clear how it can be computed practically. As tree
 width has a wide range of applications, e. g. in bioinformatics or artificial
@@ -241,61 +391,64 @@ exact computation of the tree width of a graph, based on a variant of
 the well-studied cops-and-robber game. Finally, we present a streamlined
 version of Tamaki’s algorithm due to Bannach and Berndt based on this
 game.</p>
+    
 
-  
-  <div class="row">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-10">
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
-        <div class="col-xs-12 col-sm-9">
-          
-          <a href="/publication/#1">
-            Conference proceedings
-          </a>
-          
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+          <div class="col-xs-12 col-sm-9">
+            
+            <a href="http://seberndt.github.io/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
         </div>
       </div>
+      <div class="col-sm-1"></div>
     </div>
-    <div class="col-sm-1"></div>
-  </div>
-  <div class="visible-xs space-below"></div>
-  
+    <div class="visible-xs space-below"></div>
+    
 
-  <div class="row">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-10">
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In CIE, 2018</div>
-      </div>
-    </div>
-    <div class="col-sm-1"></div>
-  </div>
-  <div class="visible-xs space-below"></div>
-
-  <div class="row">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-10">
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          April, 2018
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">In CIE, 2018</div>
         </div>
       </div>
+      <div class="col-sm-1"></div>
     </div>
-    <div class="col-sm-1"></div>
-  </div>
-  <div class="visible-xs space-below"></div>
+    <div class="visible-xs space-below"></div>
+    
 
-  <div class="row" style="padding-top: 10px">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-10">
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
-        <div class="col-xs-12 col-sm-9">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            April, 2018
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
 
-          
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
 
 
 
@@ -306,47 +459,47 @@ game.</p>
 
 
 
-<a class="btn btn-primary btn-outline" href="http://seberndt.github.io/pdf/cie2018_tw.pdf">
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://seberndt.github.io/pdf/cie2018_tw.pdf" target="_blank" rel="noopener">
   Private Copy
 </a>
 
 
 
+          </div>
         </div>
       </div>
+      <div class="col-sm-1"></div>
     </div>
-    <div class="col-sm-1"></div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
   </div>
-  <div class="visible-xs space-below"></div>
-
-  <div class="space-below"></div>
-
-  <div class="article-style"></div>
-
 </div>
 
-<div class="container">
-  <nav>
-  <ul class="pager">
-    
-    <li class="previous"><a href="http://seberndt.github.io/publication/cie2018ilp/"><span
-      aria-hidden="true">&larr;</span> Using Structural Properties for Integer Programs (CIE 2018)</a></li>
-    
 
-    
-  </ul>
-</nav>
-
-</div>
 
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 Sebastian Berndt &middot; 
+      &copy; 2018 &middot; 
 
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">
@@ -360,21 +513,54 @@ game.</p>
   </div>
 </footer>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-    <script src="/js/jquery-1.12.3.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/isotope.pkgd.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
-    <script src="/js/hugo-academic.js"></script>
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
     
 
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
     
 
     
     
       
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
 
       
 
@@ -388,7 +574,9 @@ game.</p>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
     </script>
-    <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
     
 
   </body>
