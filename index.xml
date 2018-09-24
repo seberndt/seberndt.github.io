@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>SAT-Encodings of Tree Decompositions</title>
+      <link>http://seberndt.github.io/publication/sat2018/</link>
+      <pubDate>Mon, 24 Sep 2018 10:34:41 +0200</pubDate>
+      
+      <guid>http://seberndt.github.io/publication/sat2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Practical Access to Dynamic Programming on Tree Decompositions</title>
       <link>http://seberndt.github.io/publication/esa2018/</link>
       <pubDate>Tue, 19 Jun 2018 22:33:37 +0200</pubDate>
@@ -135,16 +144,6 @@
       
       <guid>http://seberndt.github.io/talk/2016-treewidth/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Provable Secure Universal Steganography of Optimal Rate</title>
-      <link>http://seberndt.github.io/publication/ihmmsec2016/</link>
-      <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/publication/ihmmsec2016/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Best Student Paper Award&lt;/strong&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>
