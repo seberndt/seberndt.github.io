@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Bergen2018</title>
+      <link>http://seberndt.github.io/talk/bergen2018/</link>
+      <pubDate>Mon, 24 Sep 2018 11:01:56 +0200</pubDate>
+      
+      <guid>http://seberndt.github.io/talk/bergen2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SAT-Encodings of Tree Decompositions</title>
       <link>http://seberndt.github.io/publication/sat2018/</link>
       <pubDate>Mon, 24 Sep 2018 10:34:41 +0200</pubDate>
@@ -134,15 +143,6 @@
       <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://seberndt.github.io/project/cmsc2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Informatik Summer Camp - Informatik Unplugged</title>
-      <link>http://seberndt.github.io/project/summercamp/</link>
-      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/project/summercamp/</guid>
       <description></description>
     </item>
     
