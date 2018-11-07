@@ -180,6 +180,14 @@
     
     <url>
     
+      <loc>http://seberndt.github.io/project/test/</loc>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://seberndt.github.io/publication/lata2016/</loc>
       <lastmod>2016-03-14T00:00:00+00:00</lastmod>
     </url>
@@ -231,6 +239,15 @@
     <url>
     
       <loc>http://seberndt.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://seberndt.github.io/tags/deep-learning/</loc>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
