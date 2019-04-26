@@ -1,5 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    <url>
+    
+      <loc>http://seberndt.github.io/publication_types/1/</loc>
+      <lastmod>2019-04-13T10:34:41+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://seberndt.github.io/publication/wads2019/</loc>
+      <lastmod>2019-04-13T10:34:41+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://seberndt.github.io/publication_types/</loc>
+      <lastmod>2019-04-13T10:34:41+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://seberndt.github.io/</loc>
+      <lastmod>2019-04-13T10:34:41+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
     
     <url>
@@ -14,6 +48,15 @@
     
       <loc>http://seberndt.github.io/publication/sat2018/</loc>
       <lastmod>2018-09-24T10:34:41+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://seberndt.github.io/publication_types/2/</loc>
+      <lastmod>2018-08-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -92,6 +135,33 @@
     
     <url>
     
+      <loc>http://seberndt.github.io/project/</loc>
+      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://seberndt.github.io/tags/</loc>
+      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://seberndt.github.io/tags/software/</loc>
+      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://seberndt.github.io/publication/aaai2017/</loc>
       <lastmod>2017-02-04T00:00:00+00:00</lastmod>
     </url>
@@ -164,6 +234,15 @@
     
     <url>
     
+      <loc>http://seberndt.github.io/tags/conference/</loc>
+      <lastmod>2016-10-04T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://seberndt.github.io/talk/2016-treewidth/</loc>
       <lastmod>2016-07-13T00:00:00+00:00</lastmod>
     </url>
@@ -212,24 +291,6 @@
     
     <url>
     
-      <loc>http://seberndt.github.io/publication_types/1/</loc>
-      <lastmod>2018-09-24T10:34:41+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://seberndt.github.io/publication_types/2/</loc>
-      <lastmod>2018-08-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://seberndt.github.io/categories/</loc>
       <priority>0</priority>
     </url>
@@ -238,61 +299,7 @@
     
     <url>
     
-      <loc>http://seberndt.github.io/project/</loc>
-      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://seberndt.github.io/publication_types/</loc>
-      <lastmod>2018-09-24T10:34:41+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://seberndt.github.io/project/reviews/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://seberndt.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://seberndt.github.io/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://seberndt.github.io/tags/conference/</loc>
-      <lastmod>2016-10-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://seberndt.github.io/tags/software/</loc>
-      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
