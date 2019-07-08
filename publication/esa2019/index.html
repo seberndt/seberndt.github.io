@@ -15,10 +15,36 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Semi-online models where decisions may be revoked in a limited way
+  have been studied extensively in the last years.
+
+  This is motivated by the fact that
+  the pure online model is often too restrictive to model real-world
+  applications, where some changes might be allowed.
+  A well-studied measure of the amount of decisions that can be revoked is the migration factor
+  $\beta$:
+  When an object $o$ of size $s(o)$ arrives,
+  the decisions for objects of total size at most $\beta\cdot s(o)$ may be revoked.
+  Usually $\beta$ should be a constant.
+  This means that a small object only leads to small changes.
+  This measure has been successfully investigated for
+  different, classical problems such as bin packing or makespan minimization.
+  The dual of makespan minimization - the Santa Claus or machine covering
+  problem - has also been studied, whereas the dual of bin packing - the bin
+  covering problem - has not been looked at from such a perspective.
+
+  In this work, we extensively study the bin covering problem with migration in
+  different scenarios. We develop algorithms both for the static case - where
+  only insertions are allowed - and for the dynamic case, where items may also
+  depart. We also develop lower bounds for these scenarios both for amortized
+  migration and for worst-case migration showing that our algorithms have
+  nearly optimal migration factor and asymptotic competitive ratio (up to an arbitrary
+  small $\epsilon$). We therefore resolve the competitiveness of the bin covering
+  problem with migration.
+ ">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://seberndt.github.io/talk/2015-nordic/">
+  <link rel="alternate" hreflang="en-us" href="http://seberndt.github.io/publication/esa2019/">
 
   
 
@@ -86,30 +112,56 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://seberndt.github.io/talk/2015-nordic/">
+  <link rel="canonical" href="http://seberndt.github.io/publication/esa2019/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Sebastian Berndt">
-  <meta property="og:url" content="http://seberndt.github.io/talk/2015-nordic/">
-  <meta property="og:title" content="Learnability does not imply Secure Steganography | Sebastian Berndt">
-  <meta property="og:description" content="">
+  <meta property="og:url" content="http://seberndt.github.io/publication/esa2019/">
+  <meta property="og:title" content="Online Bin Covering with Limited Migration | Sebastian Berndt">
+  <meta property="og:description" content="Semi-online models where decisions may be revoked in a limited way
+  have been studied extensively in the last years.
+
+  This is motivated by the fact that
+  the pure online model is often too restrictive to model real-world
+  applications, where some changes might be allowed.
+  A well-studied measure of the amount of decisions that can be revoked is the migration factor
+  $\beta$:
+  When an object $o$ of size $s(o)$ arrives,
+  the decisions for objects of total size at most $\beta\cdot s(o)$ may be revoked.
+  Usually $\beta$ should be a constant.
+  This means that a small object only leads to small changes.
+  This measure has been successfully investigated for
+  different, classical problems such as bin packing or makespan minimization.
+  The dual of makespan minimization - the Santa Claus or machine covering
+  problem - has also been studied, whereas the dual of bin packing - the bin
+  covering problem - has not been looked at from such a perspective.
+
+  In this work, we extensively study the bin covering problem with migration in
+  different scenarios. We develop algorithms both for the static case - where
+  only insertions are allowed - and for the dynamic case, where items may also
+  depart. We also develop lower bounds for these scenarios both for amortized
+  migration and for worst-case migration showing that our algorithms have
+  nearly optimal migration factor and asymptotic competitive ratio (up to an arbitrary
+  small $\epsilon$). We therefore resolve the competitiveness of the bin covering
+  problem with migration.
+ ">
   
   
     
   <meta property="og:image" content="http://seberndt.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2015-02-17T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-07-01T22:33:37&#43;02:00">
   
-  <meta property="article:modified_time" content="2015-02-17T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2019-07-01T22:33:37&#43;02:00">
   
 
   
 
-  <title>Learnability does not imply Secure Steganography | Sebastian Berndt</title>
+  
+
+  <title>Online Bin Covering with Limited Migration | Sebastian Berndt</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -278,7 +330,7 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/Event">
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
@@ -299,7 +351,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Learnability does not imply Secure Steganography</h1>
+  <h1 itemprop="name">Online Bin Covering with Limited Migration</h1>
 
   
 
@@ -310,16 +362,35 @@
 
   
   
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Sebastian Berndt">
-  </span>
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Sebastian Berndt</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Leah Epstein</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Klaus Jansen</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Asaf Levin</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Marten Maack</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Lars Rohwedder</span>
+    </span>
+    
+  </div>
   
 
   <span class="article-date">
     
-    <meta content="2015-02-17 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-    <time datetime="2015-02-17 00:00:00 &#43;0000 UTC" itemprop="dateModified">
-      Feb 17, 2015
+    <meta content="2019-07-01 22:33:37 &#43;0200 CEST" itemprop="datePublished">
+    <time datetime="2019-07-01 22:33:37 &#43;0200 CEST" itemprop="dateModified">
+      Jul 1, 2019
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -339,35 +410,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Learnability%20does%20not%20imply%20Secure%20Steganography&amp;url=http%3a%2f%2fseberndt.github.io%2ftalk%2f2015-nordic%2f"
+         href="https://twitter.com/intent/tweet?text=Online%20Bin%20Covering%20with%20Limited%20Migration&amp;url=http%3a%2f%2fseberndt.github.io%2fpublication%2fesa2019%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fseberndt.github.io%2ftalk%2f2015-nordic%2f"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fseberndt.github.io%2fpublication%2fesa2019%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fseberndt.github.io%2ftalk%2f2015-nordic%2f&amp;title=Learnability%20does%20not%20imply%20Secure%20Steganography"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fseberndt.github.io%2fpublication%2fesa2019%2f&amp;title=Online%20Bin%20Covering%20with%20Limited%20Migration"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fseberndt.github.io%2ftalk%2f2015-nordic%2f&amp;title=Learnability%20does%20not%20imply%20Secure%20Steganography"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fseberndt.github.io%2fpublication%2fesa2019%2f&amp;title=Online%20Bin%20Covering%20with%20Limited%20Migration"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Learnability%20does%20not%20imply%20Secure%20Steganography&amp;body=http%3a%2f%2fseberndt.github.io%2ftalk%2f2015-nordic%2f">
+         href="mailto:?subject=Online%20Bin%20Covering%20with%20Limited%20Migration&amp;body=http%3a%2f%2fseberndt.github.io%2fpublication%2fesa2019%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -394,6 +465,54 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1904.06543" target="_blank" rel="noopener">
+    
+    Arxiv
+  </a>
+
+
+</div>
+
 
   
 </div>
@@ -403,7 +522,68 @@
   <div class="article-container">
 
     
-      <br>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text"><p>Semi-online models where decisions may be revoked in a limited way
+  have been studied extensively in the last years.</p>
+
+<p>This is motivated by the fact that
+  the pure online model is often too restrictive to model real-world
+  applications, where some changes might be allowed.
+  A well-studied measure of the amount of decisions that can be revoked is the migration factor
+  $\beta$:
+  When an object $o$ of size $s(o)$ arrives,
+  the decisions for objects of total size at most $\beta\cdot s(o)$ may be revoked.
+  Usually $\beta$ should be a constant.
+  This means that a small object only leads to small changes.
+  This measure has been successfully investigated for
+  different, classical problems such as bin packing or makespan minimization.
+  The dual of makespan minimization - the Santa Claus or machine covering
+  problem - has also been studied, whereas the dual of bin packing - the bin
+  covering problem - has not been looked at from such a perspective.</p>
+
+<p>In this work, we extensively study the bin covering problem with migration in
+  different scenarios. We develop algorithms both for the static case - where
+  only insertions are allowed - and for the dynamic case, where items may also
+  depart. We also develop lower bounds for these scenarios both for amortized
+  migration and for worst-case migration showing that our algorithms have
+  nearly optimal migration factor and asymptotic competitive ratio (up to an arbitrary
+  small $\epsilon$). We therefore resolve the competitiveness of the bin covering
+  problem with migration.</p>
+</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In ESA, 2019</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="row">
@@ -412,62 +592,28 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            
-            Feb 17, 2015
-            <div class="talk-time">
-              
-                12:00 AM
-                
-              
-            </div>
+            July, 2019
           </div>
         </div>
       </div>
       <div class="col-md-1"></div>
     </div>
-    <div class="d-md-none space-below"></div>
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
-          <div class="col-12 col-md-9">
-            
-            Nordic Complexity Workshop
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Lübeck</div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
+    <div class="d-sm-none space-below"></div>
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
-
-    
+    <div class="article-style"></div>
 
     
 
 
+
+
+    
+
+
+
+  
 
 
 

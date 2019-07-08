@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 13 Apr 2019 10:34:41 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 22:33:37 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Online Bin Covering with Limited Migration</title>
+      <link>http://seberndt.github.io/publication/esa2019/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      
+      <guid>http://seberndt.github.io/publication/esa2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Positive-Instance Driven Dynamic Programming for Graph Searching</title>
@@ -133,15 +142,6 @@
       <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>http://seberndt.github.io/talk/2016-qut/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hard Communication Channels for Steganography</title>
-      <link>http://seberndt.github.io/publication/isaac2016/</link>
-      <pubDate>Wed, 14 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/publication/isaac2016/</guid>
       <description></description>
     </item>
     
