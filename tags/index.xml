@@ -1,41 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Sebastian Berndt</title>
-    <link>http://seberndt.github.io/tags/</link>
-    <description>Recent content in Tags on Sebastian Berndt</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://seberndt.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Tags | Academic</title>
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>/tags/</link>
+    </image>
     
     <item>
       <title>software</title>
-      <link>http://seberndt.github.io/tags/software/</link>
+      <link>/tags/software/</link>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/tags/software/</guid>
+      <guid>/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>http://seberndt.github.io/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
       <title>conference</title>
-      <link>http://seberndt.github.io/tags/conference/</link>
+      <link>/tags/conference/</link>
       <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/tags/conference/</guid>
+      <guid>/tags/conference/</guid>
       <description></description>
     </item>
     

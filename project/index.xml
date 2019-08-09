@@ -1,52 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Sebastian Berndt</title>
-    <link>http://seberndt.github.io/project/</link>
-    <description>Recent content in Projects on Sebastian Berndt</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://seberndt.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Projects | Academic</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
     
     <item>
       <title>Jdrasil</title>
-      <link>http://seberndt.github.io/project/jdrasil/</link>
+      <link>/project/jdrasil/</link>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/project/jdrasil/</guid>
-      <description>A Modular Library for Computing Tree Decompositions.</description>
+      <guid>/project/jdrasil/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>CMSC 2016 - Creative Mathematical Science Communication</title>
-      <link>http://seberndt.github.io/project/cmsc2016/</link>
+      <link>/project/cmsc2016/</link>
       <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/project/cmsc2016/</guid>
+      <guid>/project/cmsc2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Informatik Summer Camp - Informatik Unplugged</title>
-      <link>http://seberndt.github.io/project/summercamp/</link>
+      <link>/project/summercamp/</link>
       <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/project/summercamp/</guid>
+      <guid>/project/summercamp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reviews</title>
-      <link>http://seberndt.github.io/project/reviews/</link>
+      <link>/project/reviews/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/project/reviews/</guid>
-      <description>I was a reviewer for the following conferences: ALT, CIE, ESA, ICALP, IPDPS, LATIN, OPTA, SODA, SOFSEM, STACS, STOC, WAOA, WG
-I was a reviewer for the following journals: Algorithmica, JAIR, JEA, Journal of Combinatorial Optimization</description>
+      <guid>/project/reviews/</guid>
+      <description>&lt;p&gt;I was a reviewer for the following conferences:
+ALT,
+CIE,
+ESA,
+ICALP,
+IPDPS,
+ISAAC,
+LATIN,
+OPTA,
+PPAM,
+SODA,
+SOFSEM,
+SPAA,
+STACS,
+STOC,
+WAOA,
+WG&lt;/p&gt;
+
+&lt;p&gt;I was a reviewer for the following journals:
+Algorithmica,
+IPL,
+JAIR,
+JEA,
+Journal of Combinatorial Optimization,
+Journal of Optimization Theory and Applications,
+Journal of Scheduling&lt;/p&gt;
+
+&lt;p&gt;For 2018, I have reviewed 19 papers for conferences (14) and journals (5).
+For 2019, I have already reviewed 16 papers for conferences (13) and journals (3).&lt;/p&gt;
+</description>
     </item>
     
   </channel>

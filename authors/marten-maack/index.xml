@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marten Maack | Academic</title>
+    <link>/authors/marten-maack/</link>
+      <atom:link href="/authors/marten-maack/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marten Maack</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 22:33:37 +0200</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Marten Maack</title>
+      <link>/authors/marten-maack/</link>
+    </image>
+    
+    <item>
+      <title>Online Bin Covering with Limited Migration (ESA 2019)</title>
+      <link>/publication/esa2019/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/publication/esa2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

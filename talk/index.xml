@@ -1,70 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks on Sebastian Berndt</title>
-    <link>http://seberndt.github.io/talk/</link>
-    <description>Recent content in Recent &amp; Upcoming Talks on Sebastian Berndt</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="http://seberndt.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Computing Tree Width: From Theory to Practice and Back</title>
-      <link>http://seberndt.github.io/talk/bergen2018/</link>
-      <pubDate>Mon, 24 Sep 2018 11:01:56 +0200</pubDate>
-      
-      <guid>http://seberndt.github.io/talk/bergen2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The PACE challenge: practical algorithms for tree width</title>
-      <link>http://seberndt.github.io/talk/2017-chile/</link>
-      <pubDate>Wed, 16 Aug 2017 21:32:06 -0300</pubDate>
-      
-      <guid>http://seberndt.github.io/talk/2017-chile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On the Relation between Steganography and Cryptography</title>
-      <link>http://seberndt.github.io/talk/2016-qut/</link>
-      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/talk/2016-qut/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Berechnung von Baumzerlegungen mit SAT-Solvern</title>
-      <link>http://seberndt.github.io/talk/2016-treewidth/</link>
-      <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/talk/2016-treewidth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fully Dynamic Bin Packing Revisited</title>
-      <link>http://seberndt.github.io/talk/2015-banff/</link>
-      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/talk/2015-banff/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learnability does not imply Secure Steganography</title>
-      <link>http://seberndt.github.io/talk/2015-nordic/</link>
-      <pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/talk/2015-nordic/</guid>
-      <description></description>
-    </item>
+    <title>Recent &amp; Upcoming Talks | Academic</title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+    </image>
     
   </channel>
 </rss>

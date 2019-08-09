@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>software on Sebastian Berndt</title>
-    <link>http://seberndt.github.io/tags/software/</link>
-    <description>Recent content in software on Sebastian Berndt</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://seberndt.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>software | Academic</title>
+    <link>/tags/software/</link>
+      <atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>software</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>software</title>
+      <link>/tags/software/</link>
+    </image>
     
     <item>
       <title>Jdrasil</title>
-      <link>http://seberndt.github.io/project/jdrasil/</link>
+      <link>/project/jdrasil/</link>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://seberndt.github.io/project/jdrasil/</guid>
-      <description>A Modular Library for Computing Tree Decompositions.</description>
+      <guid>/project/jdrasil/</guid>
+      <description></description>
     </item>
     
   </channel>

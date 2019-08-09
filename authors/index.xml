@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Academic</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 22:33:37 +0200</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>Asaf Levin</title>
+      <link>/authors/asaf-levin/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/authors/asaf-levin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ingmar Knof</title>
+      <link>/authors/ingmar-knof/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/authors/ingmar-knof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kilian Grage</title>
+      <link>/authors/kilian-grage/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/authors/kilian-grage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Klaus Jansen</title>
+      <link>/authors/klaus-jansen/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/authors/klaus-jansen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lars Rohwedder</title>
+      <link>/authors/lars-rohwedder/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/authors/lars-rohwedder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leah Epstein</title>
+      <link>/authors/leah-epstein/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/authors/leah-epstein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marten Maack</title>
+      <link>/authors/marten-maack/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/authors/marten-maack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sebastian Berndt</title>
+      <link>/authors/sebastian-berndt/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/authors/sebastian-berndt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Valentin Dreismann</title>
+      <link>/authors/valentin-dreismann/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/authors/valentin-dreismann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Max Bannach</title>
+      <link>/authors/max-bannach/</link>
+      <pubDate>Sat, 13 Apr 2019 10:34:41 +0200</pubDate>
+      <guid>/authors/max-bannach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dirk Nowotka</title>
+      <link>/authors/dirk-nowotka/</link>
+      <pubDate>Mon, 24 Sep 2018 10:34:41 +0200</pubDate>
+      <guid>/authors/dirk-nowotka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thorsten Ehlers</title>
+      <link>/authors/thorsten-ehlers/</link>
+      <pubDate>Mon, 24 Sep 2018 10:34:41 +0200</pubDate>
+      <guid>/authors/thorsten-ehlers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kim-Manuel Klein</title>
+      <link>/authors/kim-manuel-klein/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/kim-manuel-klein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maciej Liśkiewicz</title>
+      <link>/authors/maciej-liskiewicz/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/maciej-liskiewicz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matthias Lutter</title>
+      <link>/authors/matthias-lutter/</link>
+      <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/matthias-lutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rüdiger Reischuk</title>
+      <link>/authors/rudiger-reischuk/</link>
+      <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/rudiger-reischuk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Sebastian Berndt is a postdoc in the group of Prof. Dr. Klaus Jansen at Kiel
+University. His research interests revolve around intractable problems, which he
+tries to solve with approaches such as approximation algorithms or
+fixed-parameter-tractability. On the other hand, he applies these problems to
+cryptography and steganography to enable secure communication.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
