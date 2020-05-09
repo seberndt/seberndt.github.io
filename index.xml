@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Aug 2019 07:49:29 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 07:49:29 +0200</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Academic</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Lübeck</title>
+      <link>/post/move2020/</link>
+      <pubDate>Wed, 01 Apr 2020 07:49:29 +0200</pubDate>
+      <guid>/post/move2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dagstuhl</title>
@@ -25,14 +33,6 @@
       <link>/post/esa2019/</link>
       <pubDate>Fri, 09 Aug 2019 07:40:29 +0200</pubDate>
       <guid>/post/esa2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WAOA 2019</title>
-      <link>/post/waoa2019/</link>
-      <pubDate>Fri, 09 Aug 2019 07:40:29 +0200</pubDate>
-      <guid>/post/waoa2019/</guid>
       <description></description>
     </item>
     
@@ -126,14 +126,6 @@
     </item>
     
     <item>
-      <title>Jdrasil</title>
-      <link>/project/jdrasil/</link>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/project/jdrasil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Learning Residual Alternating Automata (AAAI 2017)</title>
       <link>/publication/aaai2017/</link>
       <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
@@ -146,22 +138,6 @@
       <link>/publication/isaac2016/</link>
       <pubDate>Wed, 14 Dec 2016 00:00:00 +0000</pubDate>
       <guid>/publication/isaac2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CMSC 2016 - Creative Mathematical Science Communication</title>
-      <link>/project/cmsc2016/</link>
-      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>/project/cmsc2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Informatik Summer Camp - Informatik Unplugged</title>
-      <link>/project/summercamp/</link>
-      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>/project/summercamp/</guid>
       <description></description>
     </item>
     
@@ -188,43 +164,6 @@
       <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
       <guid>/publication/approx2015/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Reviews</title>
-      <link>/project/reviews/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/reviews/</guid>
-      <description>&lt;p&gt;I was a reviewer for the following conferences:
-ALT,
-CIE,
-ESA,
-ICALP,
-IPDPS,
-ISAAC,
-LATIN,
-OPTA,
-PPAM,
-SODA,
-SOFSEM,
-SPAA,
-STACS,
-STOC,
-WAOA,
-WG&lt;/p&gt;
-
-&lt;p&gt;I was a reviewer for the following journals:
-Algorithmica,
-IPL,
-JAIR,
-JEA,
-Journal of Combinatorial Optimization,
-Journal of Optimization Theory and Applications,
-Journal of Scheduling&lt;/p&gt;
-
-&lt;p&gt;For 2018, I have reviewed 19 papers for conferences (14) and journals (5).
-For 2019, I have already reviewed 16 papers for conferences (13) and journals (3).&lt;/p&gt;
-</description>
     </item>
     
   </channel>

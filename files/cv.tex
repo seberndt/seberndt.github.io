@@ -3,8 +3,8 @@
 % Typesetting your academic CV in LaTeX
 %
 % URL: http://nitens.org/taraborelli/cvtex
-% DISCLAIMER: This template is provided for free and without any guarantee 
-% that it will correctly compile on your system if you have a non-standard  
+% DISCLAIMER: This template is provided for free and without any guarantee
+% that it will correctly compile on your system if you have a non-standard
 % configuration.
 % Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
 %------------------------------------
@@ -13,10 +13,10 @@
 %!TEX encoding = UTF-8 Unicode
 
 \documentclass[10pt, a4paper]{article}
-\usepackage{fontspec} 
+\usepackage{fontspec}
 
 % DOCUMENT LAYOUT
-\usepackage{geometry} 
+\usepackage{geometry}
 
 \geometry{a4paper, textwidth=6in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
 \setlength\parindent{0in}
@@ -34,7 +34,7 @@
 \setromanfont [Ligatures={Common}, BoldFont={Fontin Bold},
 ItalicFont={Fontin Italic}]{Fira Sans}
 \setsansfont [Ligatures={Common}, BoldFont={Fontin Sans Bold}, ItalicFont={Fontin Sans Italic}]{Fira Sans}
-\setmonofont{Fira Mono} 
+\setmonofont{Fira Mono}
 % ---- CUSTOM AMPERSAND
 \newcommand{\amper}{{\fontspec[Scale=.95]{Fontin}\selectfont\itshape\&}}
 % ---- MARGIN YEARS
@@ -45,11 +45,11 @@ ItalicFont={Fontin Italic}]{Fira Sans}
 \reversemarginpar
 
 % HEADINGS
-\usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
 \sectionfont{\rmfamily\mdseries\upshape\Large}
-\subsectionfont{\rmfamily\bfseries\upshape\normalsize} 
-\subsubsectionfont{\rmfamily\mdseries\upshape\normalsize} 
+\subsectionfont{\rmfamily\bfseries\upshape\normalsize}
+\subsubsectionfont{\rmfamily\mdseries\upshape\normalsize}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -59,7 +59,7 @@ ItalicFont={Fontin Italic}]{Fira Sans}
 \fancyfoot[LE,RO]{}           % page number in "outer" position of footer line
 \fancyfoot[RE,LO]{
 email: \href{mailto:sebastian.berndt@gmail.com}{sebastian.berndt@gmail.com}\\
-\textsc{url}: \href{http://seberndt.github.io/}{http://seberndt.github.io/}\\ 
+\textsc{url}: \href{http://seberndt.github.io/}{http://seberndt.github.io/}\\
 } % other info in "inner" position of footer line
 
 
@@ -68,8 +68,8 @@ email: \href{mailto:sebastian.berndt@gmail.com}{sebastian.berndt@gmail.com}\\
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \PassOptionsToPackage{hyphens}{url}
 \usepackage[bookmarks, colorlinks, breaklinks, pdftitle={Sebastian
-  Berndt - vita},pdfauthor={Sebastian Berndt}]{hyperref}  
-\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
+  Berndt - vita},pdfauthor={Sebastian Berndt}]{hyperref}
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue}
 
 
 % DOCUMENT
@@ -78,12 +78,12 @@ email: \href{mailto:sebastian.berndt@gmail.com}{sebastian.berndt@gmail.com}\\
 \hrule
 \vspace{2mm}
 {\large Research Areas:}
- approximation algorithms, \textsc{FPT} algorithms,  cryptography
+cryptography, it security, algorithms
 
-{\large Publications:} AAAI, APPROX, CCS, ESA,  EUROCRYPT, SEA, \ldots 
+{\large Publications:} AAAI, APPROX, CCS, ESA,  EUROCRYPT, SEA, \ldots
 ~(\hyperref[publications]{Link})
 
-{\large Teaching:} Algorithms and Datastructures, Algorithm Design, IT-Security, Coding Theory
+{\large Teaching:} IT-Security, Coding Theory, Algorithms and Datastructures, Algorithm Design,
 (\hyperref[teaching]{Link})
 
 {\large Education:} BSc, MSc, Ph.D.
@@ -108,27 +108,34 @@ email: \href{mailto:sebastian.berndt@gmail.com}{sebastian.berndt@gmail.com}\\
 %\hrule
 \section*{Education}
 \label{education}
-\years{2010}\textsc{BSc} in Computer Science, Kiel University\\
-\years{2012}\textsc{MSc} in Computer Science, Kiel University\\
 \years{2018}Ph.D.~in Computer Science, "New Results on Feasibilities and
 Limitations of Provable Secure Steganography", Advisor: Prof.~Dr.~Maciej
 Liśkiewicz (summa cum laude)\\
+\years{2012}\textsc{MSc} in Computer Science, Kiel University\\
+\years{2010}\textsc{BSc} in Computer Science, Kiel University\\
+
 
 \section*{Employment}
-\years{2012--2017}Research Associate, Ph.D.~Student, Institute for
-Theoretical Computer Science (Prof.~Dr.~Rüdiger Reischuk), University of Lübeck\\
-\years{2017--}Research Associate,   Department of Computer
+\years{2020--}Research Associate,   Institute for IT Security
+(Prof.~Dr.~Thomas Eisenbarth), University of Lübeck\\
+
+\years{2017--2020}Research Associate,   Department of Computer
 Science (Prof.~Dr.~Klaus Jansen), Kiel University\\
 
+\years{2012--2017}Research Associate, Ph.D.~Student, Institute for
+Theoretical Computer Science (Prof.~Dr.~Rüdiger Reischuk), University of Lübeck\\
+
 \section*{Awards}
-\years{2016}Best Student Paper Award for "Provable Secure Universal
-Steganography of Optimal Rate"\\
+\years{2018}Best Student Paper Award for "Practical Access to Dynamic
+Programming on Tree Decompositions"\\
 \years{2016}Third place in the tracks »sequential exact
 solver« and »parallel heuristic solver« in the first \emph{PACE}
 challenge on parameterized algorithms\\
 \years{2017}Third place in »Track A: Treewidth« in the second \emph{PACE}
 challenge on parameterized algorithms\\
-\years{2018}Best Student Paper Award for "Practical Access to Dynamic Programming on Tree Decompositions"\\
+\years{2016}Best Student Paper Award for "Provable Secure Universal
+Steganography of Optimal Rate"\\
+
 
 \section*{Talks}
 \years{2015a}"Learnability does not imply Secure
@@ -157,44 +164,45 @@ Universidad de Chile\\
 
 \subsection*{Conference Proceedings}
  \years{2015}Berndt, Sebastian and Jansen, Klaus and Klein,
- Kim-Manuel\footnote{This author was a Ph.\,D.~student at time of writing\label{note_phd}}
+ Kim-Manuel\footnote{This author was a Ph.\,D.~student at time of
+   writing\label{note_phd}}\footnote{The authors are alphabetically sorted\label{note_sort}}
  (2015),\\ "Fully Dynamic Bin Packing Revisited", \emph{APPROX/RANDOM
    2015}\\
-\years{2016a}Berndt, Sebastian and Reischuk, Rüdiger (2016),\\
+ \years{2016a}Berndt, Sebastian and Reischuk, Rüdiger\footref{note_sort} (2016),\\
 "Steganography Based on Pattern Languages", \emph{LATA 2016}\\
-\years{2016b}Berndt, Sebastian and Liśkiewicz, Maciej (2016),\\
+\years{2016b}Berndt, Sebastian and Liśkiewicz, Maciej\footref{note_sort} (2016),\\
 "Provable Secure Universal Steganography of Optimal Rate", \emph{ACM
   IH{\&}MMSEC 2016}\\
 \textbf{Awarded Best Student Paper}\\
-\years{2016c}Berndt, Sebastian and Liśkiewicz, Maciej (2016),\\
+\years{2016c}Berndt, Sebastian and Liśkiewicz, Maciej\footref{note_sort} (2016),\\
 "Hard Communication Channels for Steganography", \emph{ISAAC 2016}\\
-\years{2017a}Berndt, Sebastian and Liśkiewicz, Maciej and Lutter, Matthias\footref{note_phd}
+\years{2017a}Berndt, Sebastian and Liśkiewicz, Maciej and Lutter, Matthias\footref{note_phd}\footref{note_sort}
 and Reischuk, Rüdiger (2017),\\
 "Learning Residual Alternating Automata", \emph{AAAI 2017}\\
-\years{2017b}Bannach, Max\footref{note_phd} and Berndt, Sebastian and Ehlers, Thorsten\footref{note_phd} (2017),\\
+\years{2017b}Bannach, Max\footref{note_phd} and Berndt, Sebastian and Ehlers, Thorsten\footref{note_phd}\footref{note_sort} (2017),\\
 "Jdrasil: A Modular Library for Computing Tree Decompositions",
 \emph{SEA 2017}\\
-\years{2017c}Berndt, Sebastian and Liśkiewicz, Maciej (2017),\\
+\years{2017c}Berndt, Sebastian and Liśkiewicz, Maciej\footref{note_sort} (2017),\\
 "Algorithm Substitution Attacks from a Steganographic Perspective",
 \emph{CCS 2017}\\
-\years{2018a} Berndt, Sebastian and Liśkiewicz, Maciej (2018),\\
+\years{2018a} Berndt, Sebastian and Liśkiewicz, Maciej\footref{note_sort} (2018),\\
 "On the Gold Standard for Security of Universal Steganography", \emph{EUROCRYPT
   2018}\\
 \years{2018b} Berndt, Sebastian (2018),\\
 "Computing Tree Width: From Theory to Practice and Back", \emph{CIE 2018}\\
-\years{2018c} Berndt, Sebastian and Klein, Kim-Manuel (2018),\\
+\years{2018c} Berndt, Sebastian and Klein, Kim-Manuel\footref{note_sort} (2018),\\
 "Using Structural Properties for Integer Programs", \emph{CIE 2018}\\
-\years{2018d} Bannach, Max\footref{note_phd} and Berndt, Sebastian  (2018),\\
+\years{2018d} Bannach, Max\footref{note_phd} and Berndt, Sebastian\footref{note_sort}  (2018),\\
 "Practical Access to Dynamic Programming on Tree Decompositions", \emph{ESA
   2018}\\
 \textbf{Awarded Best Student Paper (Track B)}\\
-\years{2019a} Bannach, Max\footref{note_phd} and Berndt, Sebastian (2019),\\
+\years{2019a} Bannach, Max\footref{note_phd} and Berndt, Sebastian\footref{note_sort} (2019),\\
 "Positive-Instance Driven Dynamic Programming for Graph Searching", \emph{WADS 2019}\\
 \years{2019b} Berndt, Sebastian and Epstein, Leah and Jansen, Klaus and Levin,
-Asaf and Maack, Marten\footref{note_phd} and Rohwedder, Lars\footref{note_phd} (2019),\\
+Asaf and Maack, Marten\footref{note_phd} and Rohwedder, Lars\footref{note_phd}\footref{note_sort} (2019),\\
 "Online Bin Covering with Limited Migration", \emph{ESA 2019}\\
 \years{2019c} Berndt, Sebastian and Dreismann, Valentin\footnote{This author was a M.\,Sc.~student at time of writing\label{note_msc}} and Grage, Kilian\footref{note_phd} and
-Jansen, Klaus  and\\ Knof, Ingmar\footref{note_msc} (2019),\\
+Jansen, Klaus  and\\ Knof, Ingmar\footref{note_msc}\footref{note_sort} (2019),\\
 "Robust Online Algorithms for Certain Dynamic Packing Problems", \emph{WAOA 2019}
 
 
@@ -212,7 +220,7 @@ preliminary version was presented at \emph{ESA 2018}
 \subsubsection*{Non-Peer-Reviewed Works}
 \years{2018} Bannach, Max\footref{note_phd} and Berndt, Sebastian and Ehlers, Thorsten\footref{note_phd} and
 Nowotka, Dirk (2018),\\
-"SAT-Encodings of Tree Decompositions", \emph{SAT COMPETITION 2018} 
+"SAT-Encodings of Tree Decompositions", \emph{SAT COMPETITION 2018}
 
 
 \section*{Teaching}
@@ -225,11 +233,14 @@ teaching tutorials and some of the lectures (Lübeck)\\
 - Lecturer for  "Presentation and Documentation" in 2015 teaching four lectures (Lübeck)\\
 - Teaching Assistant for "Introduction to Operations Research" in 2017 and 2018
 teaching tutorials (Kiel)\\
-- Teaching Assistant for "Algorithms and Datastructures" in 2018 and 2019 
+- Teaching Assistant for "Algorithms and Datastructures" in 2018 and 2019
 teaching tutorials and organizing the tutorials (Kiel)\\
 - Lecturer for "Online Algorithms" in 2018 teaching and designing the lectures
 (Kiel)\\
-- Lecturer for "Introduction to Math for Dual-Subject Students" in 2018 teaching and designing the lectures (Kiel)
+- Lecturer for "Introduction to Math for Dual-Subject Students" in 2018 teaching
+and designing the lectures (Kiel)\\
+- Lecturer for "Secure Networks and Computer Forensics" in 2020 teaching the
+forensics lectures (Lübeck)
 
 % \hrule
 %\vspace{1cm}
@@ -247,7 +258,8 @@ based Stegosystem"\\
 Scheduling Algorithms"\\
 \years{2018b}Bachelor Thesis on "Sensitivity Analysis with the Steinitz Lemma"\\
 \years{2019a}Master Thesis on "Amortised Migration for Maximization Problems"\\
-\years{2019b}Bachelor Thesis on "Deterministic Algorithms for Discrepancy Minimization"\\
+\years{2019b}Bachelor Thesis on "Deterministic Algorithms for Discrepancy
+Minimization"\\
 
 \newpage
 \section*{Extracurricular Activities}
@@ -274,14 +286,13 @@ Department of Computer Science of Kiel University
 
 \section*{Academic Service}
 - I was an external reviewer for the following conferences: \emph{STOC},
-\emph{SODA}, \emph{ESA}, \emph{ICALP}, \emph{STACS}, \emph{ISAAC}, \emph{IPDPS}, \emph{ALT}, \emph{WG},
-\emph{LATIN}, \emph{WAOA}, 
+\emph{SODA}, \emph{CRYPTO}, \emph{EUROCRYPT}, \emph{ESA}, \emph{ICALP}, \emph{STACS}, \emph{ISAAC}, \emph{IPDPS}, \emph{ALT}, \emph{WG},
+\emph{LATIN}, \emph{WAOA},
  \emph{SOFSEM}, \emph{CIE}, \emph{OPTA}\\
 - I was a reviewer for the following journals: \emph{Algorithmica}, \emph{IPL}, \emph{JAIR},
 \emph{JEA}, \emph{Journal of Combinatorial Optimization}, \emph{Journal of Optimization Theory and Applications},
 \emph{Journal of Scheduling}\\
-- For 2018, I have reviewed 19 papers for conferences (14) and journals (5).
-For 2019, I have already reviewed 16 papers for conferences (13) and journals (3).
+
 
 
 
