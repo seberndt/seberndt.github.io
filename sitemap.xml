@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-08-09T07:49:29+02:00</lastmod>
+    <lastmod>2020-04-01T07:49:29+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/dagstuhl2019/</loc>
-    <lastmod>2019-08-09T07:49:29+02:00</lastmod>
+    <loc>/post/move2020/</loc>
+    <lastmod>2020-04-01T07:49:29+02:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2020-04-01T07:49:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/dagstuhl2019/</loc>
     <lastmod>2019-08-09T07:49:29+02:00</lastmod>
   </url>
   
@@ -23,17 +28,12 @@
   </url>
   
   <url>
-    <loc>/post/waoa2019/</loc>
-    <lastmod>2019-08-09T07:40:29+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/1/</loc>
+    <loc>/publication-type/1/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/asaf-levin/</loc>
+    <loc>/author/asaf-levin/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
@@ -43,32 +43,32 @@
   </url>
   
   <url>
-    <loc>/authors/ingmar-knof/</loc>
+    <loc>/author/ingmar-knof/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/kilian-grage/</loc>
+    <loc>/author/kilian-grage/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/klaus-jansen/</loc>
+    <loc>/author/klaus-jansen/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/lars-rohwedder/</loc>
+    <loc>/author/lars-rohwedder/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/leah-epstein/</loc>
+    <loc>/author/leah-epstein/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/marten-maack/</loc>
+    <loc>/author/marten-maack/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
@@ -83,22 +83,27 @@
   </url>
   
   <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-07-01T22:33:37+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/waoa2019/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/sebastian-berndt/</loc>
+    <loc>/author/sebastian-berndt/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/valentin-dreismann/</loc>
+    <loc>/author/valentin-dreismann/</loc>
     <lastmod>2019-07-01T22:33:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/max-bannach/</loc>
+    <loc>/author/max-bannach/</loc>
     <lastmod>2019-04-13T10:34:41+02:00</lastmod>
   </url>
   
@@ -108,12 +113,12 @@
   </url>
   
   <url>
-    <loc>/publication_types/0/</loc>
+    <loc>/publication-type/0/</loc>
     <lastmod>2018-09-24T10:34:41+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/dirk-nowotka/</loc>
+    <loc>/author/dirk-nowotka/</loc>
     <lastmod>2018-09-24T10:34:41+02:00</lastmod>
   </url>
   
@@ -123,12 +128,12 @@
   </url>
   
   <url>
-    <loc>/authors/thorsten-ehlers/</loc>
+    <loc>/author/thorsten-ehlers/</loc>
     <lastmod>2018-09-24T10:34:41+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
+    <loc>/publication-type/2/</loc>
     <lastmod>2018-08-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -138,7 +143,7 @@
   </url>
   
   <url>
-    <loc>/authors/kim-manuel-klein/</loc>
+    <loc>/author/kim-manuel-klein/</loc>
     <lastmod>2018-08-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -158,7 +163,7 @@
   </url>
   
   <url>
-    <loc>/authors/maciej-liskiewicz/</loc>
+    <loc>/author/maciej-liskiewicz/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -178,63 +183,23 @@
   </url>
   
   <url>
-    <loc>/project/jdrasil/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/software/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/aaai2017/</loc>
     <lastmod>2017-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/matthias-lutter/</loc>
+    <loc>/author/matthias-lutter/</loc>
     <lastmod>2017-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/rudiger-reischuk/</loc>
+    <loc>/author/rudiger-reischuk/</loc>
     <lastmod>2017-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/isaac2016/</loc>
     <lastmod>2016-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/cmsc2016/</loc>
-    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/conference/</loc>
-    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/summercamp/</loc>
-    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -253,10 +218,6 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
   </url>
   
@@ -265,7 +226,11 @@
   </url>
   
   <url>
-    <loc>/project/reviews/</loc>
+    <loc>/author/sebastian-berndt/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
