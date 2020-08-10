@@ -5,7 +5,7 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 22:33:37 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 22:33:37 +0200</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Solving Packing Problems with Few Small Items Using Rainbow Matchings (MFCS 2020)</title>
+      <link>/publication/mfcs2020/</link>
+      <pubDate>Mon, 01 Jun 2020 22:33:37 +0200</pubDate>
+      <guid>/publication/mfcs2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Online Bin Covering with Limited Migration (ESA 2019)</title>
       <link>/publication/esa2019/</link>
       <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
       <guid>/publication/esa2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Online Algorithms for Certain Dynamic Packing Problems (WAOA 2019)</title>
+      <link>/publication/css2020/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/publication/css2020/</guid>
       <description></description>
     </item>
     
