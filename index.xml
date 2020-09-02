@@ -5,12 +5,28 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 29 Jun 2020 07:49:29 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Aug 2020 22:33:37 +0200</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Academic</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel Analysis (CCS 2020)</title>
+      <link>/publication/ccs2020/</link>
+      <pubDate>Thu, 20 Aug 2020 22:33:37 +0200</pubDate>
+      <guid>/publication/ccs2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CCS 2020</title>
+      <link>/post/ccs2020/</link>
+      <pubDate>Wed, 29 Jul 2020 07:49:29 +0200</pubDate>
+      <guid>/post/ccs2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>MFCS 2020</title>
