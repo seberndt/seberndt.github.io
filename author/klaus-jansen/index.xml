@@ -5,12 +5,20 @@
     <link>/author/klaus-jansen/</link>
       <atom:link href="/author/klaus-jansen/index.xml" rel="self" type="application/rss+xml" />
     <description>Klaus Jansen</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 22:33:37 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Sep 2020 22:33:37 +0200</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Klaus Jansen</title>
       <link>/author/klaus-jansen/</link>
     </image>
+    
+    <item>
+      <title>Tightness of Sensitivity and Proximity Bounds for Integer Programs (SOFSEM 2021)</title>
+      <link>/publication/sofsem2021/</link>
+      <pubDate>Sun, 20 Sep 2020 22:33:37 +0200</pubDate>
+      <guid>/publication/sofsem2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Online Bin Covering with Limited Migration (ESA 2019)</title>

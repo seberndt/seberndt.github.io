@@ -27,10 +27,38 @@
   
     
   
-  <meta name="description" content="Postdoc in IT security">
+  <meta name="description" content=" We consider Integer Programs (IPs) where each variable corresponds to an
+integral point within a polytope $\mathcal{P}\subseteq \mathbb{R}^{d}$, i.e., IPs of the form
+$\min\{c^{\top}x\mid \sum_{p\in\mathcal P\cap \mathbb Z^d} x_p p = b,
+x\in\mathbb Z^{|\mathcal P\cap \mathbb Z^d|}_{\ge 0}\}$.
+The distance between an optimal integral solution and an optimal
+fractional solution (called the \emph{proxmity}) is an important measure and a classical result by Cook et
+al.~(Math. Program., 1986) shows that it is at most $\Delta^{\Theta(d)}$, where
+$\Delta=\lVert \mathcal{P}\cap \mathbb{Z}^{d} \rVert_{\infty}$ is the largest
+coefficient in the constraint matrix.
+Another important measure studies the change in an optimal solution if the
+right-hand side $b$ is replaced by another right-hand side $b&#39;$. The
+distance between an optimal solution $x$ w.r.t.~$b$ and an optimal solution
+$x&#39;$ w.r.t.~$b&#39;$ (called the \emph{sensitivity}) is similarly bounded, i.e., by $\lVert
+b-b&#39; \rVert_{1}\cdot \Delta^{\Theta(d)}$ as shown by Cook et al.~(Math. Program., 1986).
+Even after more than thirty years, these bounds are essentially the best known
+bounds for these measures.
+While some lower bounds are known for these measures, they either only work
+for very small values of $\Delta$ or require negative entries in the
+constraint matrix.
+Hence, these lower bounds often do not correspond to instances from
+algorithmic problems.
+In this work, we present for each $\Delta &gt; 0$ and each $d &gt; 0$ IPs of the
+above type with non-negative constraint matrices, such that their proximitiy and
+sensitivity is at least $\Delta^{\Theta(d)}$.
+Furthermore, these instances are closely related to instances of the Bin
+Packing problem as they form a subset of columns of the \emph{configuration IP}.
+We thereby show that the results of Cook et al.~are indeed tight, even for
+instances arising naturally from problems in combinatorial optimization. 
+ ">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication-type/1/">
+  <link rel="alternate" hreflang="en-us" href="/publication/sofsem2021/">
 
   
 
@@ -215,14 +243,12 @@
   
 
   
-  <link rel="alternate" href="/publication-type/1/index.xml" type="application/rss+xml" title="Academic">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication-type/1/">
+  <link rel="canonical" href="/publication/sofsem2021/">
 
   
   
@@ -241,18 +267,89 @@
   <meta property="twitter:creator" content="@berndt_seb">
   
   <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="/publication-type/1/">
-  <meta property="og:title" content="1 | Academic">
-  <meta property="og:description" content="Postdoc in IT security"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/publication/sofsem2021/">
+  <meta property="og:title" content="Tightness of Sensitivity and Proximity Bounds for Integer Programs (SOFSEM 2021) | Academic">
+  <meta property="og:description" content=" We consider Integer Programs (IPs) where each variable corresponds to an
+integral point within a polytope $\mathcal{P}\subseteq \mathbb{R}^{d}$, i.e., IPs of the form
+$\min\{c^{\top}x\mid \sum_{p\in\mathcal P\cap \mathbb Z^d} x_p p = b,
+x\in\mathbb Z^{|\mathcal P\cap \mathbb Z^d|}_{\ge 0}\}$.
+The distance between an optimal integral solution and an optimal
+fractional solution (called the \emph{proxmity}) is an important measure and a classical result by Cook et
+al.~(Math. Program., 1986) shows that it is at most $\Delta^{\Theta(d)}$, where
+$\Delta=\lVert \mathcal{P}\cap \mathbb{Z}^{d} \rVert_{\infty}$ is the largest
+coefficient in the constraint matrix.
+Another important measure studies the change in an optimal solution if the
+right-hand side $b$ is replaced by another right-hand side $b&#39;$. The
+distance between an optimal solution $x$ w.r.t.~$b$ and an optimal solution
+$x&#39;$ w.r.t.~$b&#39;$ (called the \emph{sensitivity}) is similarly bounded, i.e., by $\lVert
+b-b&#39; \rVert_{1}\cdot \Delta^{\Theta(d)}$ as shown by Cook et al.~(Math. Program., 1986).
+Even after more than thirty years, these bounds are essentially the best known
+bounds for these measures.
+While some lower bounds are known for these measures, they either only work
+for very small values of $\Delta$ or require negative entries in the
+constraint matrix.
+Hence, these lower bounds often do not correspond to instances from
+algorithmic problems.
+In this work, we present for each $\Delta &gt; 0$ and each $d &gt; 0$ IPs of the
+above type with non-negative constraint matrices, such that their proximitiy and
+sensitivity is at least $\Delta^{\Theta(d)}$.
+Furthermore, these instances are closely related to instances of the Bin
+Packing problem as they form a subset of columns of the \emph{configuration IP}.
+We thereby show that the results of Cook et al.~are indeed tight, even for
+instances arising naturally from problems in combinatorial optimization. 
+ "><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-09-20T22:33:37&#43;02:00">
+    
+      <meta property="article:published_time" content="2020-09-20T22:33:37&#43;02:00">
+    
+    <meta property="article:modified_time" content="2020-09-20T22:33:37&#43;02:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/sofsem2021/"
+  },
+  "headline": "Tightness of Sensitivity and Proximity Bounds for Integer Programs (SOFSEM 2021)",
+  
+  "datePublished": "2020-09-20T22:33:37+02:00",
+  "dateModified": "2020-09-20T22:33:37+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Sebastian Berndt"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": " We consider Integer Programs (IPs) where each variable corresponds to an\nintegral point within a polytope $\\mathcal{P}\\subseteq \\mathbb{R}^{d}$, i.e., IPs of the form\n$\\min\\{c^{\\top}x\\mid \\sum_{p\\in\\mathcal P\\cap \\mathbb Z^d} x_p p = b,\nx\\in\\mathbb Z^{|\\mathcal P\\cap \\mathbb Z^d|}_{\\ge 0}\\}$.\nThe distance between an optimal integral solution and an optimal\nfractional solution (called the \\emph{proxmity}) is an important measure and a classical result by Cook et\nal.~(Math. Program., 1986) shows that it is at most $\\Delta^{\\Theta(d)}$, where\n$\\Delta=\\lVert \\mathcal{P}\\cap \\mathbb{Z}^{d} \\rVert_{\\infty}$ is the largest\ncoefficient in the constraint matrix.\nAnother important measure studies the change in an optimal solution if the\nright-hand side $b$ is replaced by another right-hand side $b'$. The\ndistance between an optimal solution $x$ w.r.t.~$b$ and an optimal solution\n$x'$ w.r.t.~$b'$ (called the \\emph{sensitivity}) is similarly bounded, i.e., by $\\lVert\nb-b' \\rVert_{1}\\cdot \\Delta^{\\Theta(d)}$ as shown by Cook et al.~(Math. Program., 1986).\nEven after more than thirty years, these bounds are essentially the best known\nbounds for these measures.\nWhile some lower bounds are known for these measures, they either only work\nfor very small values of $\\Delta$ or require negative entries in the\nconstraint matrix.\nHence, these lower bounds often do not correspond to instances from\nalgorithmic problems.\nIn this work, we present for each $\\Delta \u003e 0$ and each $d \u003e 0$ IPs of the\nabove type with non-negative constraint matrices, such that their proximitiy and\nsensitivity is at least $\\Delta^{\\Theta(d)}$.\nFurthermore, these instances are closely related to instances of the Bin\nPacking problem as they form a subset of columns of the \\emph{configuration IP}.\nWe thereby show that the results of Cook et al.~are indeed tight, even for\ninstances arising naturally from problems in combinatorial optimization. \n "
+}
+</script>
+
+  
 
   
 
@@ -260,10 +357,13 @@
   
 
 
+  
 
 
 
-  <title>1 | Academic</title>
+
+
+  <title>Tightness of Sensitivity and Proximity Bounds for Integer Programs (SOFSEM 2021) | Academic</title>
 
 </head>
 
@@ -495,6 +595,98 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Tightness of Sensitivity and Proximity Bounds for Integer Programs (SOFSEM 2021)</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Sebastian Berndt</span>, <span>Klaus Jansen</span>, <span>Alexandra Lassota</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
   
 
 
@@ -508,159 +700,182 @@
 
 
 
-  
+
+
+
+
+
 
   
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>1</h1>
-
   
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/" >
+    
+    
+  </a>
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">We consider Integer Programs (IPs) where each variable corresponds to an
+integral point within a polytope $\mathcal{P}\subseteq \mathbb{R}^{d}$, i.e., IPs of the form
+$\min{c^{\top}x\mid \sum_{p\in\mathcal P\cap \mathbb Z^d} x_p p = b,
+x\in\mathbb Z^{|\mathcal P\cap \mathbb Z^d|}_{\ge 0}}$.
+The distance between an optimal integral solution and an optimal
+fractional solution (called the \emph{proxmity}) is an important measure and a classical result by Cook et
+al.~(Math. Program., 1986) shows that it is at most $\Delta^{\Theta(d)}$, where
+$\Delta=\lVert \mathcal{P}\cap \mathbb{Z}^{d} \rVert_{\infty}$ is the largest
+coefficient in the constraint matrix.
+Another important measure studies the change in an optimal solution if the
+right-hand side $b$ is replaced by another right-hand side $b'$. The
+distance between an optimal solution $x$ w.r.t.~$b$ and an optimal solution
+$x'$ w.r.t.~$b'$ (called the \emph{sensitivity}) is similarly bounded, i.e., by $\lVert
+b-b&rsquo; \rVert_{1}\cdot \Delta^{\Theta(d)}$ as shown by Cook et al.~(Math. Program., 1986).
+Even after more than thirty years, these bounds are essentially the best known
+bounds for these measures.
+While some lower bounds are known for these measures, they either only work
+for very small values of $\Delta$ or require negative entries in the
+constraint matrix.
+Hence, these lower bounds often do not correspond to instances from
+algorithmic problems.
+In this work, we present for each $\Delta &gt; 0$ and each $d &gt; 0$ IPs of the
+above type with non-negative constraint matrices, such that their proximitiy and
+sensitivity is at least $\Delta^{\Theta(d)}$.
+Furthermore, these instances are closely related to instances of the Bin
+Packing problem as they form a subset of columns of the \emph{configuration IP}.
+We thereby show that the results of Cook et al.~are indeed tight, even for
+instances arising naturally from problems in combinatorial optimization.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In SOFSEM, 2021</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
 
   
   
-    
-    
-    
-    <div>
-      <h2><a href="/publication/eurocrypt2018/" >On the Gold Standard for Security of Universal Steganography (EUROCRYPT 2018)</a></h2>
-      <div class="article-style">
-        
-           While symmetric-key steganography is quite well understood both
-in the information-theoretic and in the computational setting, many fundamental
-questions about its public-key counterpart resist persistent attempts to solve
-them. The computational …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/ccs2017/" >Algorithm Substitution Attacks from a Steganographic Perspective (CCS 2017)</a></h2>
-      <div class="article-style">
-        
-           The goal of an algorithm substitution attack (ASA), also called a
-subversion attack (SA), is to replace an honest implementation of a
-cryptographic tool by a subverted one which allows to leak private information
-while generating output …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/sea2017/" >Jdrasil: A Modular Library for Computing Tree Decompositions (SEA 2017)</a></h2>
-      <div class="article-style">
-        
-          While the theoretical aspects concerning the computation of tree
-width - one of the most important graph parameters - are well understood, it is
-not clear how it can be computed practically. We present the open source Java
-library Jdrasil that …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/aaai2017/" >Learning Residual Alternating Automata (AAAI 2017)</a></h2>
-      <div class="article-style">
-        
-           Residuality plays an essential role for learning finite automata.
-While residual deterministic and non-deterministic automata have been understood
-quite well, fundamental questions concerning alternating automata (AFA) remain
-open. Recently, …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/isaac2016/" >Hard Communication Channels for Steganography (ISAAC 2016)</a></h2>
-      <div class="article-style">
-        
-          This paper considers steganography - the concept of hiding the
-presence of secret messages in legal communications - in the computational
-setting and its relation to cryptography. Very recently the first
-(non-polynomial time) steganographic protocol …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/ihmmsec2016/" >Provable Secure Universal Steganography of Optimal Rate (IH&amp;MMSec 2016)</a></h2>
-      <div class="article-style">
-        
-          We present the first complexity-theoretic secure steganographic
-protocol which, for any communication channel, is provably secure, reliable, and
-has nearly optimal bandwidth. Our system is unconditionally secure, i.e. our
-proof does not rely on any …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/lata2016/" >Steganography Based on Pattern Languages (LATA 2016)</a></h2>
-      <div class="article-style">
-        
-          In order to transmit secret information, such that this transmission
-cannot be detected, steganography needs a channel, a set of
-strings with some distribution that occur in an ordinary communication.
-The elements of such a language or concept are …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/approx2015/" >Fully Dynamic Bin Packing Revisited (APPROX-RANDOM 2015)</a></h2>
-      <div class="article-style">
-        
-          We consider the fully dynamic bin packing problem, where items arrive and depart in an online
-fashion and repacking of previously packed items is allowed. The goal is, of course, to minimize
-both the number of bins used as well as the amount of …
-        
-      </div>
-    </div>
-  
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    <li class="page-item"><a class="page-link" href="/publication-type/1/">&laquo;</a></li>
-    
-    
-  </ul>
-</nav>
 
 
+
+  </div>
 </div>
 
       
