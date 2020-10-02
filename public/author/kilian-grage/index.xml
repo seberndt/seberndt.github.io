@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kilian Grage | Academic</title>
+    <link>/author/kilian-grage/</link>
+      <atom:link href="/author/kilian-grage/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kilian Grage</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 22:33:37 +0200</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Kilian Grage</title>
+      <link>/author/kilian-grage/</link>
+    </image>
+    
+    <item>
+      <title>Robust Online Algorithms for Certain Dynamic Packing Problems (WAOA 2019)</title>
+      <link>/publication/css2020/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/publication/css2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Online Algorithms for Certain Dynamic Packing Problems (WAOA 2019)</title>
+      <link>/publication/waoa2019/</link>
+      <pubDate>Mon, 01 Jul 2019 22:33:37 +0200</pubDate>
+      <guid>/publication/waoa2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,336 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee
+% that it will correctly compile on your system if you have a non-standard
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec}
+
+% DOCUMENT LAYOUT
+\usepackage{geometry}
+
+\geometry{a4paper, textwidth=6in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+
+% FOOTNOTES
+\usepackage{scrextend}
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+ \defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont [Ligatures={Common}, BoldFont={Fontin Bold},
+ItalicFont={Fontin Italic}]{Fira Sans}
+\setsansfont [Ligatures={Common}, BoldFont={Fontin Sans Bold}, ItalicFont={Fontin Sans Italic}]{Fira Sans}
+\setmonofont{Fira Mono}
+% ---- CUSTOM AMPERSAND
+\newcommand{\amper}{{\fontspec[Scale=.95]{Fontin}\selectfont\itshape\&}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries\upshape\Large}
+\subsectionfont{\rmfamily\bfseries\upshape\normalsize}
+\subsubsectionfont{\rmfamily\mdseries\upshape\normalsize}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{
+email: \href{mailto:sebastian.berndt@gmail.com}{sebastian.berndt@gmail.com}\\
+\textsc{url}: \href{http://seberndt.github.io/}{http://seberndt.github.io/}\\
+} % other info in "inner" position of footer line
+
+
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[bookmarks, colorlinks, breaklinks, pdftitle={Sebastian
+  Berndt - vita},pdfauthor={Sebastian Berndt}]{hyperref}
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue}
+
+
+% DOCUMENT
+\begin{document}
+{\LARGE Sebastian Berndt}\\[2mm]
+\hrule
+\vspace{2mm}
+{\large Research Areas:}
+cryptography, it security, algorithms
+
+{\large Publications:} AAAI, APPROX, CCS, ESA,  EUROCRYPT, SEA, \ldots
+~(\hyperref[publications]{Link})
+
+{\large Teaching:} IT-Security, Coding Theory, Algorithms and Datastructures, Algorithm Design,
+(\hyperref[teaching]{Link})
+
+{\large Education:} BSc, MSc, Ph.D.
+(\hyperref[education]{Link})\\[-1mm]
+\hrule
+\vfill
+
+
+
+
+%%\hrule
+% \section*{Current position}
+
+
+%%\hrule
+
+%%\hrule
+% \section*{Appointments held}
+% \noindent
+% \years{2012-}University of Lübeck
+
+%\hrule
+\section*{Education}
+\label{education}
+\years{2018}Ph.D.~in Computer Science, "New Results on Feasibilities and
+Limitations of Provable Secure Steganography", Advisor: Prof.~Dr.~Maciej
+Liśkiewicz (summa cum laude)\\
+\years{2012}\textsc{MSc} in Computer Science, Kiel University\\
+\years{2010}\textsc{BSc} in Computer Science, Kiel University\\
+
+
+\section*{Employment}
+\years{2020--}Research Associate,   Institute for IT Security
+(Prof.~Dr.~Thomas Eisenbarth), University of Lübeck\\
+
+\years{2017--2020}Research Associate,   Department of Computer
+Science (Prof.~Dr.~Klaus Jansen), Kiel University\\
+
+\years{2012--2017}Research Associate, Ph.D.~Student, Institute for
+Theoretical Computer Science (Prof.~Dr.~Rüdiger Reischuk), University of Lübeck\\
+
+\section*{Awards}
+\years{2020}Fourth place (out of 15) in the exact track and fifth place (out of
+10) in the heuristic tracks of the \emph{PACE} challenge on parameterized
+algorithms (both descriptions chosen to appear in \emph{IPEC} proceedings)\\
+\years{2018}Best Student Paper Award for "Practical Access to Dynamic
+Programming on Tree Decompositions"\\
+\years{2017}Third place in »Track A: Treewidth« in the second \emph{PACE}
+challenge on parameterized algorithms\\
+\years{2016}Third place in the tracks »sequential exact
+solver« and »parallel heuristic solver« in the first \emph{PACE}
+challenge on parameterized algorithms\\
+\years{2016}Best Student Paper Award for "Provable Secure Universal
+Steganography of Optimal Rate"\\
+
+
+\section*{Talks}
+\years{2015a}"Learnability does not imply Secure
+Steganography", Nordic Complexity Workshop\\
+\years{2015b}"Fully Dynamic Bin Packing Revisited",
+ \href{http://www.birs.ca/events/2015/5-day-workshops/15w5118}{Approximation
+   Algorithms and Parameterized Complexity}\\
+\years{2016a}"Computing tree decompostions via SAT solvers",
+Kiel University\\
+\years{2016b}"On the Relation between Steganography and Cryptography",
+Information Security Seminar, Queensland University of Technology\\
+\years{2017}"The PACE challenge: practical algorithms for tree width",
+Universidad de Chile\\
+\years{2018}"Computing Tree Width: Theory and Practice", University of Bergen
+
+
+
+% \vspace{-.1cm}
+% \section*{Interests}
+% Kayaking, Improvisational Theatre, Hiking
+
+
+%\hrule
+\section*{Publications}
+\label{publications}
+
+\subsection*{Conference Proceedings}
+ \years{2015}Berndt, Sebastian and Jansen, Klaus and Klein,
+ Kim-Manuel\footnote{The authors are alphabetically sorted\label{note_sort}}\footnote{This author was a Ph.\,D.~student at time of
+   writing\label{note_phd}}
+ (2015),\\ "Fully Dynamic Bin Packing Revisited", \emph{APPROX/RANDOM
+   2015}\\
+ \years{2016a}Berndt, Sebastian and Reischuk, Rüdiger\footref{note_sort} (2016),\\
+"Steganography Based on Pattern Languages", \emph{LATA 2016}\\
+\years{2016b}Berndt, Sebastian and Liśkiewicz, Maciej\footref{note_sort} (2016),\\
+"Provable Secure Universal Steganography of Optimal Rate", \emph{ACM
+  IH{\&}MMSEC 2016}\\
+\textbf{Awarded Best Student Paper}\\
+\years{2016c}Berndt, Sebastian and Liśkiewicz, Maciej\footref{note_sort} (2016),\\
+"Hard Communication Channels for Steganography", \emph{ISAAC 2016}\\
+\years{2017a}Berndt, Sebastian and Liśkiewicz, Maciej and Lutter, Matthias\footref{note_phd}
+and Reischuk, Rüdiger\footref{note_sort} (2017),\\
+"Learning Residual Alternating Automata", \emph{AAAI 2017}\\
+\years{2017b}Bannach, Max\footref{note_phd} and Berndt, Sebastian and Ehlers, Thorsten\footref{note_phd}\footref{note_sort} (2017),\\
+"Jdrasil: A Modular Library for Computing Tree Decompositions",
+\emph{SEA 2017}\\
+\years{2017c}Berndt, Sebastian and Liśkiewicz, Maciej\footref{note_sort} (2017),\\
+"Algorithm Substitution Attacks from a Steganographic Perspective",
+\emph{CCS 2017}\\
+\years{2018a} Berndt, Sebastian and Liśkiewicz, Maciej\footref{note_sort} (2018),\\
+"On the Gold Standard for Security of Universal Steganography", \emph{EUROCRYPT
+  2018}\\
+\years{2018b} Berndt, Sebastian (2018),\\
+"Computing Tree Width: From Theory to Practice and Back", \emph{CIE 2018}\\
+\years{2018c} Berndt, Sebastian and Klein, Kim-Manuel\footref{note_sort} (2018),\\
+"Using Structural Properties for Integer Programs", \emph{CIE 2018}\\
+\years{2018d} Bannach, Max\footref{note_phd} and Berndt, Sebastian\footref{note_sort}  (2018),\\
+"Practical Access to Dynamic Programming on Tree Decompositions", \emph{ESA
+  2018}\\
+\textbf{Awarded Best Student Paper (Track B)}\\
+\years{2019a} Bannach, Max\footref{note_phd} and Berndt, Sebastian\footref{note_sort} (2019),\\
+"Positive-Instance Driven Dynamic Programming for Graph Searching", \emph{WADS 2019}\\
+\years{2019b} Berndt, Sebastian and Epstein, Leah and Jansen, Klaus and Levin,
+Asaf and Maack, Marten\footref{note_phd} and Rohwedder, Lars\footref{note_phd}\footref{note_sort} (2019),\\
+"Online Bin Covering with Limited Migration", \emph{ESA 2019}\\
+\years{2019c} Berndt, Sebastian and Dreismann, Valentin\footnote{This author was a M.\,Sc.~student at time of writing\label{note_msc}} and Grage, Kilian\footref{note_phd} and
+Jansen, Klaus  and\\ Knof, Ingmar\footref{note_msc}\footref{note_sort} (2019),\\
+"Robust Online Algorithms for Certain Dynamic Packing Problems", \emph{WAOA
+  2019}\\
+\years{2020a} Bannach, Max and Berndt, Sebastian and Maack, Marten\footref{note_phd} and Mnich,
+Matthias and Lassota, Alexandra\footref{note_phd} and Rau, Malin and Skambath,
+Malte\footref{note_phd}\footref{note_sort},\\
+"Solving Packing Problems with Few Small Items Using Rainbow Matchings",
+\emph{MFCS 2020}\\
+\years{2020b} Seker, Okan\footref{note_phd} and Berndt, Sebastian and Wilke,
+Luca\footref{note_phd} and Eisenbarth, Thomas,\\
+"SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel
+Analysis", \emph{CCS 2020}\\
+\years{2021a}  Berndt, Sebastian and Jansen, Klaus and Lassota, Alexandra\footref{note_phd}\footref{note_sort},\\
+"Tightness of Sensitivity and Proximity Bounds for Integer Programs", \emph{SOFSEM 2021}
+
+
+
+\subsection*{Journal Publications}
+\years{2018} Berndt, Sebastian and Klein, Kim-Manuel and Jansen, Klaus (2018),\\
+"Fully Dynamic Bin Packing Revisited", \emph{Math. Program. 2020} 179\\
+preliminary version was presented at \emph{APPROX/RANDOM 2015}\\
+\years{2019} Bannach, Max\footref{note_phd} and Berndt, Sebastian  (2019),\\
+"Practical Access to Dynamic Programming on Tree Decompositions", \emph{Algorithms 2019} 12(8), 172\\
+preliminary version was presented at \emph{ESA 2018}
+
+
+\subsubsection*{Non-Peer-Reviewed Works}
+\years{2018} Bannach, Max\footref{note_phd} and Berndt, Sebastian and Ehlers, Thorsten\footref{note_phd} and
+Nowotka, Dirk (2018),\\
+"SAT-Encodings of Tree Decompositions", \emph{SAT COMPETITION 2018}
+
+\newpage
+\section*{Teaching}
+\label{teaching}
+- Teaching Assistant for "Algorithm Design" in 2012, 2013, 2014, 2015, and 2016
+teaching tutorials and some of the lectures (Lübeck)\\
+- Teaching Assistant for "Introduction to IT Security and Reliability" in 2012,
+2013, 2014, 2015, and 2016 teaching tutorials and some of the lectures (Lübeck)\\
+- Teaching Assistant for "Coding and Security" in 2013, 2014, 2015, and 2016 teaching tutorials and some of the lectures (Lübeck)\\
+- Lecturer for  "Presentation and Documentation" in 2015 teaching four lectures (Lübeck)\\
+- Teaching Assistant for "Introduction to Operations Research" in 2017 and 2018
+teaching tutorials (Kiel)\\
+- Teaching Assistant for "Algorithms and Datastructures" in 2018 and 2019
+teaching tutorials and organizing the tutorials (Kiel)\\
+- Lecturer for "Online Algorithms" in 2018 teaching and designing the lectures
+(Kiel)\\
+- Lecturer for "Introduction to Math for Dual-Subject Students" in 2018 teaching
+and designing the lectures (Kiel)\\
+- Lecturer for "Secure Networks and Computer Forensics" in 2020 teaching the
+forensics lectures (Lübeck)
+
+% \hrule
+%\vspace{1cm}
+
+%\hrulefill
+
+\subsection*{Supervised Theses}
+\years{2015a}Bachelor Thesis on "Lower Bounds in Online Bin Packing
+Models"\\
+\years{2015b}Bachelor Thesis on "Secure Multiparty Computations in
+Bitcoin"\\
+\years{2015c}Bachelor Thesis on "Development and Examination of a Huffman-coding
+based Stegosystem" (now a Ph.\,D.~student at Lübeck)\\
+\years{2018a}Bachelor Thesis on "Mobility 4.0 - Optimizing Vehicle Planning by
+Scheduling Algorithms"\\
+\years{2018b}Bachelor Thesis on "Sensitivity Analysis with the Steinitz Lemma"\\
+\years{2019a}Master Thesis on "Amortised Migration for Maximization Problems"
+(now a Ph.~D.~student in Göttingen)\\
+\years{2019b}Bachelor Thesis on "Deterministic Algorithms for Discrepancy
+Minimization"\\
+\years{2020}Master Thesis on "Algorithms for Mixed Integer Linear Programs" (now a Ph.~D.~student in Saarbrücken)
+
+\newpage
+\section*{Extracurricular Activities}
+\years{2012--2015}Received the ``\emph{Teaching Certificate II}'' by taking
+more than 10 courses in e.g. team leading, presentation techniques and
+others (\href{https://www.uni-luebeck.de/universitaet/einrichtungen/dozierenden-service-center/hochschuldidaktik/zertifikatsprogramm.html}{Link})\\
+\years{2016}Organizing Commitee of \emph{Creative Mathematical Sciences
+  Communication} (\href{http://www.tcs.uni-luebeck.de/cmsc/}{Link})\\
+\years{2016}Taught a week-long summer course on algorithms to a group of
+pupils from age 14 to 17 based on \emph{Computer Science Unplugged}
+(\href{https://www.lias.uni-luebeck.de/veranstaltungen/isc/isc16.html}{Link})\\
+\years{2016}Developed the tool \emph{Jdrasil} to compute tree
+decompositions (\href{https://github.com/maxbannach/Jdrasil}{Link})\\
+\years{2018}Taught a day-long course on algorithmics in the context of the
+"Girls' Day" for female pupils from age 14 to 15
+(\href{https://www.inf.uni-kiel.de/de/aktuelles/girls-day-am-insitut-fuer-informatik}{Link})\\
+\years{2017}Co-wrote a grant proposal on parameterized scheduling problems\\
+\years{2018}Taught four lectures of one hour to a group of pupils
+(\href{https://www.inf.uni-kiel.de/de/informatik-schule/schnupperstudium/bilder-schnupperstudium/programm-2018}{Link})\\
+\years{2018}Co-organized the annual "day of business informatics"
+(\href{http://www.kn-online.de/Kiel/Tag-der-Wirtschaftsinformatik-Ein-extrem-wichtiges-Studium-in-Kiel}{Link})\\
+\years{2019}Deputy Member of the "Study Committee" (Studienausschuss) of the
+Department of Computer Science of Kiel University\\
+\years{2020}Taught a week-long summer course on IT security to a group of
+pupils from age 14 to 17
+(\href{https://www.lias.uni-luebeck.de/162/isc/isc2020.html}{Link})\\
+
+\section*{Academic Service}
+- I was an external reviewer for the following conferences: \emph{STOC},
+\emph{SODA}, \emph{CRYPTO}, \emph{EUROCRYPT}, \emph{Usenix}, \emph{ESA}, \emph{ICALP}, \emph{STACS}, \emph{ISAAC}, \emph{IPDPS}, \emph{ALT}, \emph{WG},
+\emph{LATIN}, \emph{WAOA},
+ \emph{SOFSEM}, \emph{CIE}, \emph{OPTA}\\
+- I was a reviewer for the following journals: \emph{Algorithmica}, \emph{IPL},
+\emph{JAIR}, \emph{JCSS},
+\emph{JEA}, \emph{Journal of Combinatorial Optimization}, \emph{Journal of Optimization Theory and Applications},
+\emph{Journal of Scheduling}\\
+
+
+
+
+
+
+
+\vspace{-.05cm}
+\vfill{}
+\begin{center}
+
+{\scriptsize  Last updated: \today\- •\- Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+\fontspec{Times New Roman}  \XeLaTeX}\\
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+}
+\end{center}
+
+\end{document}
+
+% Local Variables:
+% TeX-engine: xetex
+% End:

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Academic</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Sep 2020 07:49:29 +0200</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>CCS 2020</title>
+      <link>/post/sofsem2020/</link>
+      <pubDate>Wed, 30 Sep 2020 07:49:29 +0200</pubDate>
+      <guid>/post/sofsem2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CCS 2020</title>
+      <link>/post/ccs2020/</link>
+      <pubDate>Wed, 29 Jul 2020 07:49:29 +0200</pubDate>
+      <guid>/post/ccs2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MFCS 2020</title>
+      <link>/post/mfcs2020/</link>
+      <pubDate>Mon, 29 Jun 2020 07:49:29 +0200</pubDate>
+      <guid>/post/mfcs2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PACE 2020</title>
+      <link>/post/pace2020/</link>
+      <pubDate>Mon, 22 Jun 2020 07:49:29 +0200</pubDate>
+      <guid>/post/pace2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preprints</title>
+      <link>/post/preprints_2020/</link>
+      <pubDate>Sat, 20 Jun 2020 07:49:29 +0200</pubDate>
+      <guid>/post/preprints_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lübeck</title>
+      <link>/post/move2020/</link>
+      <pubDate>Wed, 01 Apr 2020 07:49:29 +0200</pubDate>
+      <guid>/post/move2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dagstuhl</title>
+      <link>/post/dagstuhl2019/</link>
+      <pubDate>Fri, 09 Aug 2019 07:49:29 +0200</pubDate>
+      <guid>/post/dagstuhl2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESA 2019</title>
+      <link>/post/esa2019/</link>
+      <pubDate>Fri, 09 Aug 2019 07:40:29 +0200</pubDate>
+      <guid>/post/esa2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
