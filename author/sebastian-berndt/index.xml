@@ -5,12 +5,28 @@
     <link>/author/sebastian-berndt/</link>
       <atom:link href="/author/sebastian-berndt/index.xml" rel="self" type="application/rss+xml" />
     <description>Sebastian Berndt</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Sep 2020 22:33:37 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Sebastian Berndt</title>
       <link>/author/sebastian-berndt/</link>
     </image>
+    
+    <item>
+      <title> On the Universal Steganography of Optimal  Rate (Inf. Comput. 2020)</title>
+      <link>/publication/iandc2020/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/iandc2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Bounds for the Vertices of the Integer Hull (SOSA 2021)</title>
+      <link>/publication/sosa2021/</link>
+      <pubDate>Sun, 20 Sep 2020 22:33:37 +0200</pubDate>
+      <guid>/publication/sosa2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tightness of Sensitivity and Proximity Bounds for Integer Programs (SOFSEM 2021)</title>

@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Sep 2020 07:49:29 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Academic</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title> On the Universal Steganography of Optimal  Rate (Inf. Comput. 2020)</title>
+      <link>/publication/iandc2020/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/iandc2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOSA 2021</title>
+      <link>/post/sosa2020/</link>
+      <pubDate>Thu, 01 Oct 2020 07:49:29 +0200</pubDate>
+      <guid>/post/sosa2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SOFSEM 2021</title>
       <link>/post/sofsem2020/</link>
       <pubDate>Wed, 30 Sep 2020 07:49:29 +0200</pubDate>
       <guid>/post/sofsem2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Bounds for the Vertices of the Integer Hull (SOSA 2021)</title>
+      <link>/publication/sosa2021/</link>
+      <pubDate>Sun, 20 Sep 2020 22:33:37 +0200</pubDate>
+      <guid>/publication/sosa2021/</guid>
       <description></description>
     </item>
     

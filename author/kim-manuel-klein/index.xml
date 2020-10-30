@@ -5,12 +5,20 @@
     <link>/author/kim-manuel-klein/</link>
       <atom:link href="/author/kim-manuel-klein/index.xml" rel="self" type="application/rss+xml" />
     <description>Kim-Manuel Klein</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Sep 2020 22:33:37 +0200</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Kim-Manuel Klein</title>
       <link>/author/kim-manuel-klein/</link>
     </image>
+    
+    <item>
+      <title>New Bounds for the Vertices of the Integer Hull (SOSA 2021)</title>
+      <link>/publication/sosa2021/</link>
+      <pubDate>Sun, 20 Sep 2020 22:33:37 +0200</pubDate>
+      <guid>/publication/sosa2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fully Dynamic Bin Packing Revisited (Math. Prog. 2018)</title>
