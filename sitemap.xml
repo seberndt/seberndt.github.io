@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-12-01T07:49:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-12-01T07:49:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/pc2020/</loc>
+    <lastmod>2020-12-01T07:49:29+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/iandc2020/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication-type/2/</loc>
-    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -40,11 +50,6 @@
   <url>
     <loc>/author/sebastian-berndt/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-10-01T07:49:29+02:00</lastmod>
   </url>
   
   <url>
