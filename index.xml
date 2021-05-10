@@ -5,12 +5,36 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 07:49:29 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 02 May 2021 07:49:29 +0200</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Academic</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>PQC Standardization</title>
+      <link>/post/nist2021/</link>
+      <pubDate>Sun, 02 May 2021 07:49:29 +0200</pubDate>
+      <guid>/post/nist2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIMVA 2021</title>
+      <link>/post/dimva2021/</link>
+      <pubDate>Sat, 01 May 2021 07:49:29 +0200</pubDate>
+      <guid>/post/dimva2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CIE 2021</title>
+      <link>/post/cie2021/</link>
+      <pubDate>Fri, 30 Apr 2021 07:49:29 +0200</pubDate>
+      <guid>/post/cie2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Program Commitees 2021</title>
