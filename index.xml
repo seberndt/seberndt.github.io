@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 02 May 2021 07:49:29 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 22:33:37 +0200</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Academic</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Side-Channel Protections for Picnic Signatures</title>
+      <link>/publication/ches2021/</link>
+      <pubDate>Tue, 01 Jun 2021 22:33:37 +0200</pubDate>
+      <guid>/publication/ches2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PQC Standardization</title>
@@ -29,6 +37,14 @@
     </item>
     
     <item>
+      <title>Program Commitees 2021</title>
+      <link>/post/pc2020/</link>
+      <pubDate>Sat, 01 May 2021 07:49:29 +0200</pubDate>
+      <guid>/post/pc2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CIE 2021</title>
       <link>/post/cie2021/</link>
       <pubDate>Fri, 30 Apr 2021 07:49:29 +0200</pubDate>
@@ -37,10 +53,18 @@
     </item>
     
     <item>
-      <title>Program Commitees 2021</title>
-      <link>/post/pc2020/</link>
-      <pubDate>Tue, 01 Dec 2020 07:49:29 +0200</pubDate>
-      <guid>/post/pc2020/</guid>
+      <title>Help, my Signal has bad Device! Breaking the Signal Messenger’s Post-Compromise Security through a Malicious Device</title>
+      <link>/publication/dimva2021/</link>
+      <pubDate>Thu, 01 Apr 2021 22:33:37 +0200</pubDate>
+      <guid>/publication/dimva2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Online Algorithms for Dynamic Choosing Problems</title>
+      <link>/publication/cie2021/</link>
+      <pubDate>Sat, 20 Mar 2021 22:33:37 +0200</pubDate>
+      <guid>/publication/cie2021/</guid>
       <description></description>
     </item>
     
