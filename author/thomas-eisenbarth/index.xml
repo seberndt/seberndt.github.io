@@ -29,6 +29,14 @@
     </item>
     
     <item>
+      <title>Util::Lookup: Exploiting key decoding in cryptographic libraries (CCS 2021)</title>
+      <link>/publication/ccs2021/</link>
+      <pubDate>Sun, 20 Sep 2020 22:33:37 +0200</pubDate>
+      <guid>/publication/ccs2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel Analysis (CCS 2020)</title>
       <link>/publication/ccs2020/</link>
       <pubDate>Thu, 20 Aug 2020 22:33:37 +0200</pubDate>

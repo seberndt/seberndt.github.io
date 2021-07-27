@@ -27,10 +27,14 @@
   
     
   
-  <meta name="description" content="Postdoc in IT security">
+  <meta name="description" content="Implementations of cryptographic libraries have been scrutinized for secret-dependent execution behavior exploitable by microarchitectural side-channel attacks. To prevent unintended leakages, most libraries moved to constant-time implementations of cryptographic primitives. There have also been efforts to certify libraries for use in sensitive areas, like Microsoft CNG and Botan, with specific attention to leakage behavior.
+
+In this work, we show that a common oversight in these libraries is the existence of utility functions, which handle and may thus leak confidential information. 
+We analyze the exploitability of base64 decoding functions across several widely used cryptographic libraries. Base64 decoding is used when loading keys stored in PEM format. We show that these functions by themselves leak sufficient information even if libraries are executed in trusted execution environments. In fact, we show that recent countermeasures to transient execution attacks such as LVI ease the exploitability of the observed faint leakages, allowing us to robustly infer sufficient information about RSA private keys with a single trace. We present a complete attack, including a broad library analysis, a high-resolution last level cache attack on fully patched modern SGX enclaves, and a fully parallelized implementation of the extend-and-prune approach that allows a complete key recovery at medium costs.
+ ">
 
   
-  <link rel="alternate" hreflang="en-us" href="/authors/">
+  <link rel="alternate" hreflang="en-us" href="/publication/ccs2021/">
 
   
 
@@ -215,14 +219,12 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Academic">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/authors/">
+  <link rel="canonical" href="/publication/ccs2021/">
 
   
   
@@ -241,18 +243,65 @@
   <meta property="twitter:creator" content="@berndt_seb">
   
   <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="/authors/">
-  <meta property="og:title" content="Authors | Academic">
-  <meta property="og:description" content="Postdoc in IT security"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/publication/ccs2021/">
+  <meta property="og:title" content="Util::Lookup: Exploiting key decoding in cryptographic libraries (CCS 2021) | Academic">
+  <meta property="og:description" content="Implementations of cryptographic libraries have been scrutinized for secret-dependent execution behavior exploitable by microarchitectural side-channel attacks. To prevent unintended leakages, most libraries moved to constant-time implementations of cryptographic primitives. There have also been efforts to certify libraries for use in sensitive areas, like Microsoft CNG and Botan, with specific attention to leakage behavior.
+
+In this work, we show that a common oversight in these libraries is the existence of utility functions, which handle and may thus leak confidential information. 
+We analyze the exploitability of base64 decoding functions across several widely used cryptographic libraries. Base64 decoding is used when loading keys stored in PEM format. We show that these functions by themselves leak sufficient information even if libraries are executed in trusted execution environments. In fact, we show that recent countermeasures to transient execution attacks such as LVI ease the exploitability of the observed faint leakages, allowing us to robustly infer sufficient information about RSA private keys with a single trace. We present a complete attack, including a broad library analysis, a high-resolution last level cache attack on fully patched modern SGX enclaves, and a fully parallelized implementation of the extend-and-prune approach that allows a complete key recovery at medium costs.
+ "><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-06-01T22:33:37&#43;02:00">
+    
+      <meta property="article:published_time" content="2020-09-20T22:33:37&#43;02:00">
+    
+    <meta property="article:modified_time" content="2020-09-20T22:33:37&#43;02:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/ccs2021/"
+  },
+  "headline": "Util::Lookup: Exploiting key decoding in cryptographic libraries (CCS 2021)",
+  
+  "datePublished": "2020-09-20T22:33:37+02:00",
+  "dateModified": "2020-09-20T22:33:37+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Florian Sieck"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Implementations of cryptographic libraries have been scrutinized for secret-dependent execution behavior exploitable by microarchitectural side-channel attacks. To prevent unintended leakages, most libraries moved to constant-time implementations of cryptographic primitives. There have also been efforts to certify libraries for use in sensitive areas, like Microsoft CNG and Botan, with specific attention to leakage behavior.\n\nIn this work, we show that a common oversight in these libraries is the existence of utility functions, which handle and may thus leak confidential information. \nWe analyze the exploitability of base64 decoding functions across several widely used cryptographic libraries. Base64 decoding is used when loading keys stored in PEM format. We show that these functions by themselves leak sufficient information even if libraries are executed in trusted execution environments. In fact, we show that recent countermeasures to transient execution attacks such as LVI ease the exploitability of the observed faint leakages, allowing us to robustly infer sufficient information about RSA private keys with a single trace. We present a complete attack, including a broad library analysis, a high-resolution last level cache attack on fully patched modern SGX enclaves, and a fully parallelized implementation of the extend-and-prune approach that allows a complete key recovery at medium costs.\n "
+}
+</script>
+
+  
 
   
 
@@ -260,10 +309,13 @@
   
 
 
+  
 
 
 
-  <title>Authors | Academic</title>
+
+
+  <title>Util::Lookup: Exploiting key decoding in cryptographic libraries (CCS 2021) | Academic</title>
 
 </head>
 
@@ -495,6 +547,98 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Util::Lookup: Exploiting key decoding in cryptographic libraries (CCS 2021)</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span>Florian Sieck</span>, <span>Sebastian Berndt</span>, <span>Jan Wichelmann</span>, <span>Thomas Eisenbarth</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
   
 
 
@@ -510,74 +654,167 @@
 
 
 
-  
+
+
+
 
   
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
-
   
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/" >
+    
+    
+  </a>
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract"><p>Implementations of cryptographic libraries have been scrutinized for secret-dependent execution behavior exploitable by microarchitectural side-channel attacks. To prevent unintended leakages, most libraries moved to constant-time implementations of cryptographic primitives. There have also been efforts to certify libraries for use in sensitive areas, like Microsoft CNG and Botan, with specific attention to leakage behavior.</p>
+<p>In this work, we show that a common oversight in these libraries is the existence of utility functions, which handle and may thus leak confidential information.
+We analyze the exploitability of base64 decoding functions across several widely used cryptographic libraries. Base64 decoding is used when loading keys stored in PEM format. We show that these functions by themselves leak sufficient information even if libraries are executed in trusted execution environments. In fact, we show that recent countermeasures to transient execution attacks such as LVI ease the exploitability of the observed faint leakages, allowing us to robustly infer sufficient information about RSA private keys with a single trace. We present a complete attack, including a broad library analysis, a high-resolution last level cache attack on fully patched modern SGX enclaves, and a fully parallelized implementation of the extend-and-prune approach that allows a complete key recovery at medium costs.</p>
+</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In CCS, 2021</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
   
 
-  <ul>
-    
-    
-      
-      <li><a href="/author/klaus-jansen/">Klaus Jansen</a></li>
-    
-      
-      <li><a href="/author/lukas-johannsen/">Lukas Johannsen</a></li>
-    
-      
-      <li><a href="/author/maria-kosche/">Maria Kosche</a></li>
-    
-      
-      <li><a href="/author/maciej-liskiewicz/">Maciej Liśkiewicz</a></li>
-    
-      
-      <li><a href="/author/alexandra-lassota/">Alexandra Lassota</a></li>
-    
-      
-      <li><a href="/author/florian-sieck/">Florian Sieck</a></li>
-    
-      
-      <li><a href="/author/kim-manuel-klein/">Kim-Manuel Klein</a></li>
-    
-      
-      <li><a href="/author/malin-rau/">Malin Rau</a></li>
-    
-      
-      <li><a href="/author/malte-skambath/">Malte Skambath</a></li>
-    
-      
-      <li><a href="/author/marten-maack/">Marten Maack</a></li>
-    
-  </ul>
 
   
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    <li class="page-item"><a class="page-link" href="/authors/">&laquo;</a></li>
     
     
-    <li class="page-item"><a class="page-link" href="/authors/page/3/">&raquo;</a></li>
-    
-  </ul>
-</nav>
 
 
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
 </div>
 
       
