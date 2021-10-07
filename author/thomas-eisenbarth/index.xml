@@ -5,12 +5,20 @@
     <link>/author/thomas-eisenbarth/</link>
       <atom:link href="/author/thomas-eisenbarth/index.xml" rel="self" type="application/rss+xml" />
     <description>Thomas Eisenbarth</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 22:33:37 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Sep 2021 22:33:37 +0200</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Thomas Eisenbarth</title>
       <link>/author/thomas-eisenbarth/</link>
     </image>
+    
+    <item>
+      <title>Util::Lookup: Exploiting key decoding in cryptographic libraries (CCS 2021)</title>
+      <link>/publication/ccs2021/</link>
+      <pubDate>Mon, 20 Sep 2021 22:33:37 +0200</pubDate>
+      <guid>/publication/ccs2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Side-Channel Protections for Picnic Signatures</title>
@@ -25,14 +33,6 @@
       <link>/publication/dimva2021/</link>
       <pubDate>Thu, 01 Apr 2021 22:33:37 +0200</pubDate>
       <guid>/publication/dimva2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Util::Lookup: Exploiting key decoding in cryptographic libraries (CCS 2021)</title>
-      <link>/publication/ccs2021/</link>
-      <pubDate>Sun, 20 Sep 2020 22:33:37 +0200</pubDate>
-      <guid>/publication/ccs2021/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>/author/klaus-jansen/</link>
       <atom:link href="/author/klaus-jansen/index.xml" rel="self" type="application/rss+xml" />
     <description>Klaus Jansen</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Mar 2021 22:33:37 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 02 Oct 2021 22:33:37 +0200</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Klaus Jansen</title>
       <link>/author/klaus-jansen/</link>
     </image>
+    
+    <item>
+      <title>Load Balancing: The Long Road From Theory to Practice (ALENEX 2022)</title>
+      <link>/publication/alenex2022/</link>
+      <pubDate>Sat, 02 Oct 2021 22:33:37 +0200</pubDate>
+      <guid>/publication/alenex2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Robust Online Algorithms for Dynamic Choosing Problems</title>
