@@ -5,12 +5,20 @@
     <link>/author/claudius-pott/</link>
       <atom:link href="/author/claudius-pott/index.xml" rel="self" type="application/rss+xml" />
     <description>Claudius Pott</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 22:33:37 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 02 Oct 2021 22:33:37 +0200</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Claudius Pott</title>
       <link>/author/claudius-pott/</link>
     </image>
+    
+    <item>
+      <title>ASAP: Algorithm Substitution Attacks on Cryptographic Protocols (AsiaCCS 2022)</title>
+      <link>/publication/asiaccs2022/</link>
+      <pubDate>Sat, 02 Oct 2021 22:33:37 +0200</pubDate>
+      <guid>/publication/asiaccs2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Help, my Signal has bad Device! Breaking the Signal Messenger’s Post-Compromise Security through a Malicious Device</title>

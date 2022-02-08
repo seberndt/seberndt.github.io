@@ -5,12 +5,20 @@
     <link>/author/max-bannach/</link>
       <atom:link href="/author/max-bannach/index.xml" rel="self" type="application/rss+xml" />
     <description>Max Bannach</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 22:33:37 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 02 Jan 2022 22:33:37 +0200</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Max Bannach</title>
       <link>/author/max-bannach/</link>
     </image>
+    
+    <item>
+      <title>Recent Advances in Positive-Instance Driven Graph Searching</title>
+      <link>/publication/algorithms2022/</link>
+      <pubDate>Sun, 02 Jan 2022 22:33:37 +0200</pubDate>
+      <guid>/publication/algorithms2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Solving Packing Problems with Few Small Items Using Rainbow Matchings (MFCS 2020)</title>

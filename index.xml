@@ -5,12 +5,36 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 02 Oct 2021 22:33:37 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Feb 2022 07:49:29 +0200</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>AsiaCCS 2022</title>
+      <link>/post/asiaccs2022/</link>
+      <pubDate>Mon, 07 Feb 2022 07:49:29 +0200</pubDate>
+      <guid>/post/asiaccs2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Advances in Positive-Instance Driven Graph Searching</title>
+      <link>/publication/algorithms2022/</link>
+      <pubDate>Sun, 02 Jan 2022 22:33:37 +0200</pubDate>
+      <guid>/publication/algorithms2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ASAP: Algorithm Substitution Attacks on Cryptographic Protocols (AsiaCCS 2022)</title>
+      <link>/publication/asiaccs2022/</link>
+      <pubDate>Sat, 02 Oct 2021 22:33:37 +0200</pubDate>
+      <guid>/publication/asiaccs2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Load Balancing: The Long Road From Theory to Practice (ALENEX 2022)</title>
