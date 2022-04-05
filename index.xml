@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Feb 2022 07:49:29 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Apr 2022 07:49:29 +0200</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>OR Letters 2022</title>
+      <link>/post/orl2022/</link>
+      <pubDate>Fri, 01 Apr 2022 07:49:29 +0200</pubDate>
+      <guid>/post/orl2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AsiaCCS 2022</title>
