@@ -5,12 +5,28 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 07 Jan 2023 07:49:29 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jun 2023 07:49:29 +0200</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>CRYPTO 2023</title>
+      <link>/post/crypto_2023/</link>
+      <pubDate>Wed, 07 Jun 2023 07:49:29 +0200</pubDate>
+      <guid>/post/crypto_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EuroS&amp;P 2023</title>
+      <link>/post/eurosp_2023/</link>
+      <pubDate>Tue, 07 Mar 2023 07:49:29 +0200</pubDate>
+      <guid>/post/eurosp_2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Publications 2022/2023</title>
