@@ -1,0 +1,217 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Sebastian Berndt
+  tagline: Professor
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: sebastian.berndt@th-luebeck.de
+  # phone: 012 345 6789
+  # timezone: Europe/Berlin # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  # citizenship:
+  website: https://seberndt.github.io/ # Include the full website URL, including "http://" or "https://".
+  # linkedin: alandoe
+  # xing: alandoe
+  github: seberndt
+  # telegram: # add your nickname without '@' sign
+  # gitlab:
+  # bitbucket:
+  # bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  # twitter: '@jekyllrb'
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  # mastodon: # Please include your full Mastodon link here.
+  # hackerrank: # Please provide your HackerRank username.
+  # leetcode: # Please provide your LeetCode username.
+  # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  # languages:
+  #   title: Languages
+  #   info:
+  #   - idiom: English
+  #     level: Native
+
+  #   - idiom: French
+  #     level: Professional
+
+  #   - idiom: Spanish
+  #     level: Professional
+
+  interests:
+    title: List Of Publications
+    info:
+    - item: DBLP
+      link: https://dblp.org/pid/154/6431.html
+
+
+  #   - item: Snowboarding
+  #     link:
+
+
+  #   - item: Cooking
+  #     link:
+
+
+career-profile:
+  title: Biography
+  summary: |
+    Sebastian Berndt is a professor for applied mathematics and IT security at the <a href="https://www.th-luebeck.de/">Technische Hochschule Lübeck</a>. His research interests revolve around intractable problems. On the one hand, he applies these problems to cryptography and steganography to enable secure communication. On the other hand, he tries to solve them with approaches such as approximation algorithms or fixed-parameter-tractability.
+    
+education:
+  title: Research Topics
+  info:
+  - degree: Cryptography
+  - degree: IT-security
+  - degree: Algorithms
+  - degree: Artificial Intelligence
+
+
+
+certifications:
+  title: Education and Employment
+  list:
+  - name: Professor
+    start: 2024
+    end: Present
+    organization: TH Lübeck
+  - name: PhD in Computer Science
+    start: 2012
+    end: 2018
+    organization: University of Lübeck
+  - name: M.Sc. in Computer Science
+    start: 2010
+    end: 2012
+    organization: Kiel University
+  - name: B.Sc. in Computer Science
+    start: 2007
+    end: 2010
+    organization: Kiel University
+
+
+oss:
+  title: Academic Service
+  intro: >
+    I am an active researcher and reviewer for many conferences and journals.
+  contributions:
+  - title: Editorial Membership
+    tagline: "<a href='https://www.sciencedirect.com/journal/information-processing-letters'>IPL</a>"
+
+  - title: PC Membership (selected)
+    tagline: "CHES 2022—2025; USENIX 2024; CiC 2024—2025; ACNS 2025; INDOCRYPT 2021; PACE 2023 (chair),&#8230;"
+
+  - title: Steering Comitee
+    link: "https://pacechallenge.org/"
+    tagline: "Parameterized Algorithms and Computational Experiments (PACE)"
+
+  - title: External Reviewer Conferences (selected)
+    tagline: "STOC; SODA, CRYPTO; EUROCRYPT; Usenix; S&amp;P; ICALP; STACS, ESA,&#8230;"
+
+  - title: External Reviewer Journals (selected)
+    tagline: "Algorithmica; Int. J. Inform. Secur.; JCSS; JEA; Trans. Inf. Forensics Secur.,&#8230;"
+    
+publications:
+  title: Selected Publications
+  intro: |
+    This is a selection of my publications. A fairly complete list can be found at <a href="https://dblp.org/pid/154/6431.html"> DBLP </a>.
+  papers: 
+  - title: "Dash: Accelerating Distributed Private Convolutional Neural Network Inference with Arithmetic Garbled Circuits"
+    authors: Jonas Sander, Sebastian Berndt, Ida Bruhns, Thomas Eisenbarth
+    conference: "TCHES 2025"
+    
+  - title: "Polynomial sharings on two secrets: Buy one, get one free"
+    authors: Paula Arnold, Sebastian Berndt, Thomas Eisenbarth, Maximilian Orlt
+    conference: "TCHES 2024"
+    
+  - title: "TeeJam: Sub-Cache-Line Leakages Strike Back"
+    authors: Florian Sieck, Zhiyuan Zhang, Sebastian Berndt, Chitchanok Chuengsatiansup, Thomas Eisenbarth, Yuval Yarom
+    conference: "TCHES 2024"
+
+  - title: "Combined Fault and Leakage Resilience: Composability, Constructions and Compiler"
+    authors: Sebastian Berndt, Thomas Eisenbarth, Sebastian Faust, Marc Gourjon, Maximilian Orlt, Okan Seker
+    conference: "CRYPTO 2023"
+
+  - title: "Util: : Lookup: Exploiting Key Decoding in Cryptographic Libraries"
+    authors: Florian Sieck, Sebastian Berndt, Jan Wichelmann, Thomas Eisenbarth
+    conference: "CCS 2021"
+
+  - title: "Side-Channel Protections for Picnic Signatures"
+    authors: Diego F. Aranha, Sebastian Berndt, Thomas Eisenbarth, Okan Seker, Akira Takahashi, Luca Wilke, Greg Zaverucha
+    conference: "TCHES 2021"
+
+  - title: "SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel Analysis"
+    authors: Okan Seker, Sebastian Berndt, Luca Wilke, Thomas Eisenbarth
+    conference: "CCS 2020"
+
+  - title: "Online Bin Covering with Limited Migration"
+    authors: Sebastian Berndt, Leah Epstein, Klaus Jansen, Asaf Levin, Marten Maack, Lars Rohwedder
+    conference: "ESA 2019 (JCSS)"
+
+  - title: "On the Gold Standard for Security of Universal Steganography"
+    authors: Sebastian Berndt, Maciej Liskiewicz
+    conference: "EUROCRYPT 2018"
+
+  - title: "Practical Access to Dynamic Programming on Tree Decompositions"
+    authors: Max Bannach, Sebastian Berndt
+    conference: "ESA 2018 (best student paper award)"
+
+  - title: "Algorithm Substitution Attacks from a Steganographic Perspective"
+    authors: Sebastian Berndt, Maciej Liskiewicz
+    conference: "CCS 2017"
+
+  - title: "Learning Residual Alternating Automata"
+    authors: Sebastian Berndt, Maciej Liskiewicz, Matthias Lutter, Rüdiger Reischuk
+    conference: "AAAI 2017 (Inf. Comput.)"
+
+
+
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person: Yareli Perez
+#     email: perezyareli@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       Alan Doe is a super employee!
+#   - person: Lara Henderson
+#     email: larah@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       I would like to work with Alan Doe again!
+
+#       He is a great employee!
+
+# skills:
+#   title: Skills &amp; Proficiency
+
+#   toolset:
+#   - name: Python & Django
+#     level: 98%
+
+#   - name: Javascript & jQuery
+#     level: 98%
+
+#   - name: Angular
+#     level: 98%
+
+#   - name: HTML5 & CSS
+#     level: 95%
+
+#   - name: Ruby on Rails
+#     level: 85%
+
+#   - name: Sketch & Photoshop
+#     level: 60%
+
+# footer: >
+#   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
